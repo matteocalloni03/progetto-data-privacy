@@ -1,0 +1,1001 @@
+patient_id,full_name,national_id,age,gender,postal_area,bmi,diagnosis,blood_pressure_systolic,blood_pressure_diastolic,fasting_glucose,treatment_cost,is_oncology
+PAT-00001,Teresa Silva Pereira,219534739,50,F,1500,27.5,Type 2 diabetes,126.8,87.2,147.8,3079.82,False
+PAT-00002,Francisco Martins Santos,277760078,49,M,1300,32.4,Hypertension,158.5,92.2,95.3,1183.07,False
+PAT-00003,Beatriz Santos Martins,338033512,44,F,2700,19.8,Cardiovascular,145.1,88.1,97.9,3444.94,False
+PAT-00004,Catarina Oliveira Pereira,255515190,58,F,2600,26.5,Oncology,141.0,92.4,107.4,10210.93,True
+PAT-00005,Manuel Sousa Rodrigues,358476008,60,M,1100,21.6,Normal,131.6,85.3,114.8,316.3,False
+PAT-00006,Inês Oliveira Martins,217270642,59,F,1700,28.8,Normal,125.4,95.0,91.6,387.42,False
+PAT-00007,Rita Oliveira Pereira,139257617,49,F,2700,30.3,Cardiovascular,146.2,78.6,99.3,3086.18,False
+PAT-00008,Catarina Rodrigues Costa,285284918,36,F,2800,33.2,Cardiovascular,140.6,87.0,109.8,6790.21,False
+PAT-00009,João Oliveira Rodrigues,379075426,65,M,2600,23.9,Hypertension,145.2,90.7,83.4,1107.59,False
+PAT-00010,Rui Costa Pereira,284008653,54,M,1050,31.1,Normal,121.5,79.9,94.1,212.92,False
+PAT-00011,Luís Santos Silva,389247418,68,M,1100,33.6,Cardiovascular,160.4,101.3,76.7,5039.99,False
+PAT-00012,Catarina Sousa Jesus,152806634,67,F,1100,19.6,Normal,129.5,82.4,107.2,202.82,False
+PAT-00013,Mariana Silva Sousa,384063629,31,F,1050,29.4,Normal,139.1,95.7,106.2,211.96,False
+PAT-00014,Beatriz Ferreira Jesus,162872793,31,F,1050,31.3,Oncology,114.3,80.3,97.8,8798.56,True
+PAT-00015,Miguel Martins Ferreira,317355211,42,M,1200,25.1,Hypertension,162.8,97.2,88.3,344.04,False
+PAT-00016,Rui Oliveira Costa,212546296,37,M,1700,21.2,Normal,114.1,74.2,108.3,410.43,False
+PAT-00017,Rita Rodrigues Santos,377300855,66,F,1300,31.2,Normal,148.8,99.5,96.3,273.92,False
+PAT-00018,José Pereira Sousa,315463644,60,M,1300,21.2,Normal,120.8,82.3,71.3,110.82,False
+PAT-00019,Rita Pereira Martins,318995580,72,F,1100,25.5,Type 2 diabetes,139.6,96.1,141.3,2466.17,False
+PAT-00020,Rita Pereira Oliveira,324688444,60,F,1050,26.1,Normal,132.7,86.7,92.4,211.0,False
+PAT-00021,Teresa Costa Santos,282100317,57,F,2800,29.9,Cardiovascular,146.3,93.1,102.0,1715.22,False
+PAT-00022,Miguel Costa Costa,341795913,73,M,1700,23.5,Type 2 diabetes,143.9,91.9,159.8,2663.37,False
+PAT-00023,Rita Sousa Pereira,132036925,62,F,1100,23.3,Cardiovascular,156.3,94.8,84.9,6754.88,False
+PAT-00024,Beatriz Santos Rodrigues,165079210,55,F,2600,26.8,Hypertension,162.1,96.0,97.3,705.79,False
+PAT-00025,Beatriz Pereira Rodrigues,259355663,78,F,2700,31.5,Hypertension,159.1,104.3,94.6,760.53,False
+PAT-00026,Francisco Oliveira Oliveira,341589763,56,M,2800,39.7,Hypertension,132.9,83.1,103.7,661.41,False
+PAT-00027,António Santos Jesus,350073680,49,M,1050,20.1,Hypertension,160.8,99.4,90.4,1167.29,False
+PAT-00028,João Pereira Rodrigues,259405893,41,M,1900,27.8,Type 2 diabetes,126.5,75.3,124.3,2407.52,False
+PAT-00029,Manuel Rodrigues Martins,241092196,65,M,2800,21.6,Cardiovascular,167.2,102.6,96.2,5922.34,False
+PAT-00030,Catarina Pereira Silva,274212178,74,F,2600,31.6,Oncology,130.4,88.4,70.0,8296.82,True
+PAT-00031,Teresa Pereira Jesus,336584930,53,F,1100,22.2,Oncology,137.2,88.6,83.2,7047.43,True
+PAT-00032,Ana Santos Martins,383353784,75,F,2700,23.3,Hypertension,152.8,92.3,82.9,400.25,False
+PAT-00033,Rui Jesus Martins,185002725,22,M,1300,23.7,Normal,109.9,73.9,96.0,293.39,False
+PAT-00034,António Sousa Rodrigues,285141787,53,M,1500,26.0,Type 2 diabetes,129.9,87.4,147.1,1234.29,False
+PAT-00035,Manuel Santos Jesus,225370640,53,M,1700,27.9,Normal,117.7,63.5,100.5,252.19,False
+PAT-00036,António Martins Santos,371433611,42,M,2600,28.7,Cardiovascular,153.7,93.9,116.3,2950.55,False
+PAT-00037,António Ferreira Ferreira,265589707,88,M,1050,26.3,Normal,145.3,94.9,118.7,369.19,False
+PAT-00038,Pedro Sousa Sousa,359699832,53,M,1500,20.7,Cardiovascular,142.9,83.1,114.6,1800.94,False
+PAT-00039,Miguel Ferreira Sousa,230945667,47,M,2600,30.0,Cardiovascular,155.4,113.1,100.4,2124.74,False
+PAT-00040,Mariana Costa Martins,398314663,54,F,1700,26.1,Hypertension,153.7,91.7,89.0,889.44,False
+PAT-00041,Miguel Sousa Costa,189897892,22,M,1200,32.4,Normal,119.3,70.6,118.9,388.17,False
+PAT-00042,Catarina Martins Ferreira,332448077,42,F,1000,23.2,Cardiovascular,144.8,95.4,100.3,1986.9,False
+PAT-00043,Inês Rodrigues Silva,143955016,70,F,1700,19.7,Hypertension,164.0,102.9,101.9,1034.62,False
+PAT-00044,José Martins Sousa,268621384,44,M,1900,26.2,Normal,130.3,82.6,116.0,289.51,False
+PAT-00045,Mariana Pereira Oliveira,358253633,41,F,1700,33.2,Hypertension,158.4,101.2,88.3,1071.16,False
+PAT-00046,Catarina Costa Silva,358441174,75,F,2800,27.1,Hypertension,158.6,96.8,74.5,682.04,False
+PAT-00047,Luís Oliveira Martins,268484248,75,M,1700,25.4,Cardiovascular,159.8,106.2,102.1,3343.69,False
+PAT-00048,Tiago Sousa Rodrigues,274625695,62,M,1500,22.5,Normal,138.5,85.4,99.8,189.15,False
+PAT-00049,Inês Oliveira Santos,157335060,47,F,1000,36.1,Hypertension,155.7,97.1,97.5,954.8,False
+PAT-00050,Rui Jesus Jesus,364870674,50,M,1700,21.9,Type 2 diabetes,128.5,88.1,161.4,925.32,False
+PAT-00051,José Pereira Jesus,162379539,41,M,1050,23.1,Normal,109.6,77.9,87.2,339.42,False
+PAT-00052,Luís Martins Oliveira,157916855,38,M,1900,29.2,Hypertension,143.0,84.7,123.3,481.4,False
+PAT-00053,Beatriz Rodrigues Jesus,260894200,37,F,1050,18.8,Cardiovascular,154.6,97.6,86.4,4176.05,False
+PAT-00054,Inês Jesus Ferreira,145410919,44,F,2700,33.1,Type 2 diabetes,119.1,77.4,136.7,2463.53,False
+PAT-00055,Beatriz Sousa Sousa,160682116,37,F,1200,29.4,Hypertension,160.8,101.7,74.9,941.59,False
+PAT-00056,Helena Pereira Jesus,278247947,29,F,1300,30.9,Cardiovascular,146.2,89.7,106.6,4864.65,False
+PAT-00057,Rui Sousa Silva,390893993,58,M,1050,29.1,Normal,122.8,88.8,95.3,232.84,False
+PAT-00058,Rita Sousa Martins,170673445,58,F,1100,25.6,Hypertension,152.6,101.8,87.1,618.75,False
+PAT-00059,António Martins Santos,316788357,81,M,2800,21.7,Type 2 diabetes,131.0,90.7,159.8,2674.48,False
+PAT-00060,Francisco Rodrigues Oliveira,268389610,43,M,1200,25.7,Type 2 diabetes,141.3,93.5,145.7,1119.06,False
+PAT-00061,Catarina Ferreira Rodrigues,169090630,59,F,1500,22.1,Hypertension,158.5,95.0,93.4,798.66,False
+PAT-00062,Pedro Rodrigues Ferreira,350609219,59,M,2800,28.7,Hypertension,142.0,89.2,91.2,1175.53,False
+PAT-00063,Inês Ferreira Oliveira,227802081,50,F,1700,30.4,Hypertension,138.6,86.3,89.2,585.8,False
+PAT-00064,Mariana Pereira Oliveira,323715569,66,F,1000,34.3,Normal,137.8,96.8,106.5,376.6,False
+PAT-00065,Sofia Ferreira Rodrigues,172858225,66,F,1200,28.1,Type 2 diabetes,138.0,86.1,162.3,3121.18,False
+PAT-00066,Teresa Ferreira Jesus,144264849,59,F,1300,31.1,Cardiovascular,147.1,95.2,113.4,4699.19,False
+PAT-00067,Mariana Santos Pereira,149972339,50,F,1200,24.9,Hypertension,167.0,103.1,70.0,967.23,False
+PAT-00068,João Silva Pereira,284996760,48,M,1100,24.1,Normal,114.5,74.9,93.0,124.45,False
+PAT-00069,Francisco Martins Santos,323189180,32,M,1500,28.7,Normal,121.1,73.1,89.6,277.52,False
+PAT-00070,Tiago Ferreira Santos,363705148,41,M,1300,24.5,Normal,129.4,79.2,106.7,291.45,False
+PAT-00071,Pedro Martins Rodrigues,268730518,44,M,1200,27.6,Cardiovascular,141.0,86.8,110.1,2884.66,False
+PAT-00072,Manuel Santos Pereira,263098669,36,M,1300,21.7,Hypertension,142.0,94.7,123.2,1057.43,False
+PAT-00073,Beatriz Sousa Ferreira,314992369,61,F,1200,22.5,Normal,143.8,96.3,85.0,144.54,False
+PAT-00074,Manuel Sousa Santos,225335135,73,M,1100,29.5,Hypertension,150.1,93.5,86.9,829.89,False
+PAT-00075,João Oliveira Oliveira,135969554,39,M,1300,30.9,Type 2 diabetes,122.0,77.7,158.6,1427.14,False
+PAT-00076,Pedro Jesus Sousa,121417257,59,M,2800,22.0,Normal,113.6,70.7,72.0,326.88,False
+PAT-00077,António Sousa Rodrigues,170672875,37,M,1500,29.7,Hypertension,156.9,99.6,84.7,546.03,False
+PAT-00078,Maria Sousa Santos,211823496,49,F,1700,23.9,Hypertension,148.8,88.1,104.3,353.82,False
+PAT-00079,Mariana Martins Ferreira,235039529,43,F,2800,26.4,Normal,137.5,84.6,111.2,347.15,False
+PAT-00080,Sofia Oliveira Jesus,261025255,64,F,1700,34.0,Hypertension,167.8,101.7,94.0,392.82,False
+PAT-00081,Sofia Rodrigues Oliveira,270065184,43,F,1100,30.4,Hypertension,151.2,95.6,90.2,825.67,False
+PAT-00082,Manuel Martins Jesus,328848387,70,M,1300,30.4,Oncology,134.8,83.3,83.3,8197.42,True
+PAT-00083,Mariana Santos Santos,356105723,50,F,1500,37.1,Normal,144.6,98.9,88.3,434.17,False
+PAT-00084,Francisco Costa Costa,172415221,44,M,1500,23.2,Normal,116.5,82.6,109.4,278.16,False
+PAT-00085,António Costa Ferreira,128834808,34,M,1050,22.0,Type 2 diabetes,110.9,66.5,150.7,1786.23,False
+PAT-00086,Pedro Martins Rodrigues,160891541,58,M,1050,23.1,Normal,111.8,71.9,116.3,409.7,False
+PAT-00087,Maria Sousa Silva,377810847,68,F,1200,25.1,Hypertension,173.3,110.6,79.1,886.46,False
+PAT-00088,Rui Silva Costa,232028756,58,M,2800,17.2,Hypertension,151.9,90.8,78.2,1060.99,False
+PAT-00089,Manuel Silva Rodrigues,351734365,88,M,1900,25.3,Cardiovascular,151.6,100.8,88.2,1525.18,False
+PAT-00090,Rita Santos Sousa,271568200,77,F,2700,23.9,Cardiovascular,162.6,98.4,101.8,1871.02,False
+PAT-00091,José Pereira Ferreira,280623366,49,M,1050,30.3,Cardiovascular,156.0,85.5,92.8,2638.03,False
+PAT-00092,Beatriz Santos Oliveira,174628900,49,F,1300,28.0,Hypertension,160.8,93.9,78.8,450.92,False
+PAT-00093,António Silva Pereira,265014094,62,M,1700,23.6,Hypertension,158.6,89.1,93.6,1139.44,False
+PAT-00094,Pedro Martins Pereira,146117467,41,M,1300,29.3,Oncology,134.4,88.5,98.7,11249.48,True
+PAT-00095,José Martins Rodrigues,270014900,73,M,1300,30.0,Hypertension,144.1,91.9,82.5,1053.91,False
+PAT-00096,Teresa Sousa Jesus,165224456,60,F,1200,22.9,Hypertension,160.5,107.4,93.0,394.33,False
+PAT-00097,Rui Oliveira Pereira,113048967,58,M,1000,24.1,Hypertension,142.1,91.4,93.1,922.0,False
+PAT-00098,José Ferreira Martins,134711251,65,M,2700,17.6,Normal,126.1,80.1,106.7,278.6,False
+PAT-00099,Miguel Jesus Santos,319134358,82,M,2800,21.6,Hypertension,151.2,107.9,78.1,873.29,False
+PAT-00100,Beatriz Ferreira Jesus,361646032,57,F,1000,23.0,Hypertension,158.4,100.5,90.9,1001.94,False
+PAT-00101,Sofia Santos Costa,299102559,52,F,1300,26.7,Normal,129.0,77.4,124.9,416.08,False
+PAT-00102,Teresa Sousa Silva,263468632,78,F,1500,22.2,Normal,142.5,88.7,88.4,424.43,False
+PAT-00103,José Santos Pereira,326639782,69,M,2600,24.0,Cardiovascular,140.2,88.3,88.2,6508.26,False
+PAT-00104,Mariana Ferreira Silva,264343395,49,F,2800,21.1,Hypertension,140.7,86.5,80.4,384.54,False
+PAT-00105,Mariana Silva Ferreira,288972257,54,F,1300,27.1,Cardiovascular,143.7,93.8,108.5,2217.23,False
+PAT-00106,Maria Silva Oliveira,224014381,57,F,2600,28.4,Hypertension,144.2,84.5,107.4,803.39,False
+PAT-00107,Tiago Martins Silva,216049586,60,M,2800,28.3,Type 2 diabetes,137.8,88.4,155.6,2661.57,False
+PAT-00108,João Pereira Rodrigues,260083431,32,M,2700,26.4,Cardiovascular,136.5,82.2,104.7,5952.45,False
+PAT-00109,Miguel Jesus Pereira,362169583,29,M,1200,19.9,Normal,95.8,67.9,78.1,336.91,False
+PAT-00110,Ana Silva Santos,262703793,40,F,2600,23.5,Type 2 diabetes,139.7,88.9,162.7,2633.41,False
+PAT-00111,João Jesus Ferreira,217979406,39,M,1300,24.5,Normal,141.7,84.6,94.0,168.35,False
+PAT-00112,Tiago Costa Costa,165284958,44,M,1000,24.5,Hypertension,150.2,100.4,88.0,520.49,False
+PAT-00113,Francisco Jesus Silva,331489793,64,M,2600,26.7,Cardiovascular,174.8,109.6,102.5,6599.22,False
+PAT-00114,Maria Oliveira Pereira,384629891,51,F,2700,34.0,Normal,122.6,72.9,114.7,297.62,False
+PAT-00115,Luís Martins Costa,125563301,57,M,1200,30.5,Hypertension,156.0,97.9,70.0,686.5,False
+PAT-00116,Sofia Pereira Martins,126542659,34,F,1300,22.0,Hypertension,141.0,94.1,107.2,453.3,False
+PAT-00117,Sofia Costa Costa,376271610,47,F,1300,29.7,Normal,134.7,78.6,104.0,425.9,False
+PAT-00118,Rita Martins Oliveira,185296856,63,F,1050,29.5,Normal,147.3,103.6,72.0,292.36,False
+PAT-00119,José Pereira Oliveira,387480107,64,M,2800,22.8,Normal,126.0,82.2,93.7,418.11,False
+PAT-00120,Sofia Rodrigues Ferreira,344555582,42,F,1000,30.7,Normal,139.7,83.3,81.5,302.0,False
+PAT-00121,Catarina Martins Sousa,324430425,57,F,1700,25.6,Hypertension,152.8,89.9,93.8,881.68,False
+PAT-00122,Ana Martins Silva,156294611,88,F,1000,20.4,Hypertension,155.5,101.9,91.9,1145.43,False
+PAT-00123,José Santos Santos,220663641,54,M,1900,28.6,Hypertension,154.7,97.0,87.5,413.05,False
+PAT-00124,Manuel Silva Jesus,229975785,43,M,2700,27.4,Cardiovascular,155.7,95.6,102.3,2703.57,False
+PAT-00125,João Pereira Rodrigues,387450221,51,M,1900,25.3,Normal,137.6,84.8,106.3,103.09,False
+PAT-00126,Helena Jesus Santos,163899515,55,F,1700,26.1,Normal,146.3,86.7,73.9,173.67,False
+PAT-00127,Rui Rodrigues Santos,135667541,52,M,2700,23.1,Cardiovascular,136.6,80.2,102.3,2167.38,False
+PAT-00128,Francisco Sousa Pereira,199276417,53,M,2800,29.4,Type 2 diabetes,128.0,80.5,142.3,1910.51,False
+PAT-00129,Manuel Jesus Sousa,395543718,31,M,2700,26.1,Hypertension,142.0,83.5,105.7,538.09,False
+PAT-00130,Helena Sousa Jesus,348969697,39,F,1100,27.1,Normal,147.0,90.2,106.8,127.11,False
+PAT-00131,Francisco Santos Rodrigues,183732704,52,M,1700,28.1,Cardiovascular,146.8,89.0,105.6,2554.96,False
+PAT-00132,Sofia Oliveira Rodrigues,158004769,51,F,2700,21.4,Type 2 diabetes,115.4,69.8,112.6,2478.04,False
+PAT-00133,Helena Ferreira Ferreira,189344919,45,F,1200,22.4,Hypertension,149.0,93.1,70.0,840.77,False
+PAT-00134,Miguel Silva Costa,389529713,51,M,1900,17.7,Normal,122.8,76.2,93.6,431.29,False
+PAT-00135,Rita Costa Pereira,265791910,55,F,1000,29.1,Normal,154.6,96.9,111.2,303.83,False
+PAT-00136,Tiago Pereira Martins,167629341,68,M,2700,21.2,Hypertension,141.7,88.2,70.7,638.65,False
+PAT-00137,Beatriz Silva Costa,127854322,52,F,1700,26.9,Type 2 diabetes,123.9,70.4,174.2,3066.18,False
+PAT-00138,Maria Sousa Rodrigues,246930492,60,F,2600,28.1,Cardiovascular,138.5,92.7,85.0,4726.56,False
+PAT-00139,Inês Oliveira Rodrigues,289386553,45,F,2700,29.3,Normal,123.3,77.1,100.4,380.1,False
+PAT-00140,António Ferreira Oliveira,197111413,63,M,1100,21.2,Hypertension,163.4,101.4,100.4,798.44,False
+PAT-00141,Sofia Martins Santos,376584485,60,F,1300,26.0,Cardiovascular,155.1,96.6,74.3,2997.76,False
+PAT-00142,Teresa Pereira Costa,277510968,68,F,2700,35.5,Hypertension,163.7,100.0,115.5,844.34,False
+PAT-00143,Ana Pereira Martins,155646644,65,F,1050,35.8,Cardiovascular,174.2,107.7,102.1,5879.7,False
+PAT-00144,Sofia Santos Costa,313157242,63,F,2700,31.4,Hypertension,144.4,90.7,101.0,816.72,False
+PAT-00145,Manuel Pereira Oliveira,392284950,52,M,1200,28.0,Normal,129.8,72.4,73.6,404.97,False
+PAT-00146,Luís Rodrigues Rodrigues,181753523,58,M,1700,22.0,Hypertension,144.6,98.7,80.2,652.36,False
+PAT-00147,Tiago Silva Pereira,148047879,71,M,1500,29.9,Hypertension,167.8,100.2,118.1,643.25,False
+PAT-00148,Maria Silva Ferreira,155088160,44,F,1900,25.6,Type 2 diabetes,132.8,83.7,158.7,1285.8,False
+PAT-00149,Luís Jesus Martins,373797464,44,M,2700,29.1,Hypertension,152.6,104.6,87.0,833.05,False
+PAT-00150,Pedro Martins Santos,261102915,57,M,1200,23.5,Hypertension,160.0,94.7,96.8,862.95,False
+PAT-00151,Teresa Jesus Silva,386523205,61,F,1050,25.5,Hypertension,149.2,95.9,96.4,529.2,False
+PAT-00152,Beatriz Jesus Oliveira,252492692,41,F,1300,27.1,Hypertension,151.6,94.9,89.8,659.19,False
+PAT-00153,Tiago Sousa Oliveira,235511877,53,M,1700,27.5,Hypertension,149.7,107.6,75.3,1021.51,False
+PAT-00154,Maria Pereira Ferreira,244978151,52,F,2600,28.8,Cardiovascular,147.2,103.2,77.0,6400.34,False
+PAT-00155,Francisco Costa Oliveira,379088861,19,M,2600,23.7,Hypertension,146.9,94.5,111.1,703.15,False
+PAT-00156,Ana Pereira Rodrigues,256922604,50,F,1200,20.7,Hypertension,147.9,94.3,70.0,533.23,False
+PAT-00157,João Ferreira Jesus,354732072,51,M,2800,35.2,Hypertension,150.8,94.0,73.9,657.99,False
+PAT-00158,Maria Oliveira Ferreira,328907837,51,F,1000,41.2,Normal,120.6,79.1,82.3,250.02,False
+PAT-00159,Ana Oliveira Costa,352855500,77,F,1050,28.5,Cardiovascular,170.0,108.4,111.4,2756.65,False
+PAT-00160,Ana Silva Santos,381604457,35,F,1000,20.7,Hypertension,140.6,96.8,72.3,672.97,False
+PAT-00161,Pedro Jesus Santos,225114324,41,M,2800,22.9,Hypertension,145.8,87.5,102.2,595.17,False
+PAT-00162,Inês Pereira Pereira,132470188,18,F,1050,28.8,Cardiovascular,151.0,96.1,97.3,5199.91,False
+PAT-00163,António Silva Costa,232484119,46,M,1700,33.5,Cardiovascular,155.1,100.0,99.8,2723.56,False
+PAT-00164,José Pereira Ferreira,387662753,48,M,2600,21.2,Cardiovascular,132.4,84.2,73.7,6236.8,False
+PAT-00165,Helena Rodrigues Oliveira,329693905,46,F,2600,25.7,Hypertension,168.7,102.4,96.2,901.58,False
+PAT-00166,António Jesus Jesus,262933078,72,M,2800,27.3,Normal,117.5,74.0,100.1,448.11,False
+PAT-00167,Maria Sousa Rodrigues,113175342,68,F,1000,30.7,Cardiovascular,148.1,99.0,110.1,2319.83,False
+PAT-00168,Maria Martins Santos,291558437,55,F,1300,24.7,Hypertension,163.6,103.1,101.9,655.19,False
+PAT-00169,João Santos Oliveira,364925958,48,M,1500,19.9,Hypertension,152.4,92.7,110.3,919.03,False
+PAT-00170,Catarina Oliveira Santos,188626654,70,F,1900,29.4,Hypertension,174.5,105.9,82.3,630.04,False
+PAT-00171,Manuel Jesus Sousa,113595166,54,M,1700,32.2,Cardiovascular,159.1,101.1,87.7,5029.36,False
+PAT-00172,Rita Santos Jesus,164788859,41,F,1700,25.9,Normal,117.4,79.7,113.8,355.92,False
+PAT-00173,Pedro Costa Santos,337161007,27,M,1200,28.3,Oncology,139.4,81.8,98.1,14540.23,True
+PAT-00174,Helena Oliveira Silva,213052168,47,F,1050,24.2,Hypertension,144.5,91.2,113.8,680.23,False
+PAT-00175,António Oliveira Silva,124494084,66,M,1300,22.6,Normal,157.1,94.7,79.6,265.38,False
+PAT-00176,José Oliveira Sousa,148477435,88,M,1100,31.7,Hypertension,156.1,96.9,95.5,395.14,False
+PAT-00177,João Costa Sousa,126120860,55,M,1700,28.2,Cardiovascular,158.5,101.5,89.6,3351.6,False
+PAT-00178,Teresa Sousa Santos,219299011,42,F,2600,28.7,Hypertension,191.4,120.0,96.8,919.33,False
+PAT-00179,Teresa Sousa Pereira,360123881,35,F,1700,34.5,Hypertension,147.4,92.0,89.8,302.17,False
+PAT-00180,Beatriz Costa Oliveira,210595851,63,F,1700,21.8,Type 2 diabetes,149.3,100.4,146.0,1326.02,False
+PAT-00181,Sofia Sousa Sousa,383126183,26,F,1000,23.8,Cardiovascular,155.3,97.2,70.0,5166.29,False
+PAT-00182,Inês Jesus Pereira,338840913,63,F,1900,27.1,Hypertension,168.2,92.4,83.4,1105.23,False
+PAT-00183,Rita Costa Oliveira,337704840,67,F,1300,23.8,Type 2 diabetes,141.3,87.1,137.2,1291.33,False
+PAT-00184,Manuel Rodrigues Pereira,151651744,61,M,1050,30.3,Hypertension,154.8,99.9,80.4,575.25,False
+PAT-00185,Sofia Santos Sousa,383768736,50,F,1100,25.4,Cardiovascular,157.3,99.8,107.3,1835.85,False
+PAT-00186,Ana Martins Jesus,197281346,63,F,2600,22.0,Normal,124.9,87.5,72.0,344.78,False
+PAT-00187,João Costa Costa,260280475,57,M,2800,26.6,Normal,145.1,96.1,85.1,167.12,False
+PAT-00188,José Rodrigues Oliveira,392261719,42,M,1500,27.1,Normal,126.5,75.1,81.4,174.45,False
+PAT-00189,Beatriz Oliveira Jesus,158057872,84,F,2800,31.1,Oncology,156.3,92.7,105.7,8622.77,True
+PAT-00190,Pedro Pereira Sousa,174495528,48,M,1050,28.2,Normal,145.0,94.6,110.1,335.14,False
+PAT-00191,Teresa Sousa Martins,120750242,66,F,1200,28.6,Hypertension,169.3,98.7,93.7,864.3,False
+PAT-00192,José Martins Pereira,123948637,18,M,2800,27.9,Normal,119.6,80.0,104.0,416.37,False
+PAT-00193,António Oliveira Sousa,272068242,74,M,1050,25.4,Hypertension,159.3,95.9,109.7,772.91,False
+PAT-00194,Mariana Pereira Oliveira,342866566,78,F,1900,23.1,Normal,127.5,81.2,70.0,413.44,False
+PAT-00195,António Rodrigues Pereira,173859832,54,M,1100,27.7,Normal,137.0,86.4,87.1,269.62,False
+PAT-00196,Luís Pereira Pereira,210673468,63,M,1200,24.8,Type 2 diabetes,122.6,83.0,179.8,1087.11,False
+PAT-00197,Helena Pereira Silva,359511714,63,F,1500,35.7,Cardiovascular,157.6,93.0,78.6,3736.25,False
+PAT-00198,Inês Costa Silva,350597741,44,F,1200,33.5,Type 2 diabetes,125.1,77.2,147.4,2325.62,False
+PAT-00199,José Santos Costa,161052138,63,M,2700,29.5,Hypertension,164.1,96.1,86.1,668.23,False
+PAT-00200,Miguel Sousa Pereira,254641243,41,M,2800,28.2,Normal,126.8,90.9,98.5,137.91,False
+PAT-00201,Teresa Ferreira Martins,129964043,44,F,1500,25.9,Hypertension,156.6,100.9,92.8,1176.02,False
+PAT-00202,Mariana Martins Martins,134952007,72,F,1500,21.0,Hypertension,175.3,103.1,102.2,902.17,False
+PAT-00203,Mariana Ferreira Costa,151062174,70,F,1000,25.3,Normal,141.5,98.4,102.2,121.3,False
+PAT-00204,Tiago Sousa Sousa,234402199,43,M,1100,26.8,Type 2 diabetes,139.2,85.4,152.1,3158.35,False
+PAT-00205,Manuel Costa Santos,123426548,42,M,1000,27.4,Hypertension,142.8,90.8,100.2,829.43,False
+PAT-00206,Pedro Sousa Silva,178639494,44,M,2700,28.6,Cardiovascular,154.4,92.8,113.3,2501.53,False
+PAT-00207,Pedro Sousa Jesus,112230087,66,M,1100,31.1,Hypertension,150.3,95.0,83.4,917.18,False
+PAT-00208,Inês Santos Sousa,237239189,38,F,1200,23.2,Hypertension,149.8,93.6,101.9,379.93,False
+PAT-00209,Rui Costa Sousa,281177835,60,M,2700,23.3,Normal,119.9,80.0,78.3,216.87,False
+PAT-00210,Maria Rodrigues Silva,260220463,66,F,1900,34.2,Type 2 diabetes,146.1,95.0,134.6,2373.95,False
+PAT-00211,Helena Rodrigues Sousa,186920654,53,F,1700,30.2,Hypertension,148.3,102.4,108.6,1011.03,False
+PAT-00212,Mariana Silva Silva,247336563,70,F,1000,24.5,Normal,140.9,82.7,84.7,102.76,False
+PAT-00213,José Martins Santos,221776164,49,M,1700,25.8,Normal,134.3,85.4,98.0,367.08,False
+PAT-00214,Teresa Ferreira Oliveira,141713884,51,F,1700,25.8,Hypertension,153.0,94.7,88.5,1143.78,False
+PAT-00215,Sofia Oliveira Oliveira,399189557,38,F,1200,26.5,Type 2 diabetes,131.0,85.0,133.2,1571.58,False
+PAT-00216,Maria Costa Martins,379335269,70,F,2600,28.6,Type 2 diabetes,140.9,96.9,152.5,1841.42,False
+PAT-00217,Rui Pereira Jesus,233543494,42,M,2800,41.5,Oncology,144.4,85.7,117.8,6075.37,True
+PAT-00218,Tiago Sousa Pereira,276525038,60,M,1100,27.2,Cardiovascular,147.3,92.2,87.6,6546.62,False
+PAT-00219,Teresa Costa Silva,392244059,53,F,1200,29.6,Type 2 diabetes,130.7,84.7,158.7,3006.16,False
+PAT-00220,António Rodrigues Santos,270425892,37,M,1200,19.4,Cardiovascular,145.8,93.6,70.7,4962.2,False
+PAT-00221,Francisco Martins Santos,241975138,44,M,2700,24.1,Normal,127.4,82.7,94.5,282.87,False
+PAT-00222,Beatriz Ferreira Costa,212676443,76,F,1000,32.8,Hypertension,177.2,103.6,91.9,674.86,False
+PAT-00223,Sofia Sousa Silva,149441309,57,F,2700,28.3,Normal,137.8,90.1,133.8,377.75,False
+PAT-00224,Helena Martins Jesus,356609017,38,F,2600,16.0,Normal,133.7,84.0,77.5,106.73,False
+PAT-00225,Tiago Santos Sousa,127427528,59,M,1500,29.7,Hypertension,165.2,104.9,101.4,996.28,False
+PAT-00226,Mariana Sousa Jesus,175646421,52,F,1700,37.2,Normal,131.8,83.6,108.3,379.73,False
+PAT-00227,Luís Pereira Santos,352461169,88,M,2700,18.4,Type 2 diabetes,128.6,86.5,138.0,1770.08,False
+PAT-00228,Ana Pereira Jesus,253398198,59,F,2600,34.6,Type 2 diabetes,134.5,93.8,146.5,1182.86,False
+PAT-00229,Mariana Oliveira Ferreira,223430464,48,F,1200,16.0,Hypertension,155.5,93.2,90.3,316.46,False
+PAT-00230,Luís Rodrigues Sousa,170780682,77,M,1000,31.2,Cardiovascular,155.3,95.2,111.8,5109.73,False
+PAT-00231,Miguel Rodrigues Sousa,122554815,25,M,1900,26.3,Hypertension,152.7,97.6,75.1,1151.68,False
+PAT-00232,Francisco Sousa Pereira,311092674,56,M,1050,17.2,Oncology,123.1,82.8,84.6,9656.52,True
+PAT-00233,Ana Oliveira Santos,286895199,86,F,1000,28.5,Normal,129.3,83.7,108.3,425.05,False
+PAT-00234,Ana Jesus Martins,119165219,52,F,2800,32.4,Normal,127.7,84.5,103.3,316.12,False
+PAT-00235,Sofia Jesus Silva,356259590,26,F,1500,28.1,Normal,143.5,93.6,105.0,147.67,False
+PAT-00236,Sofia Martins Pereira,245181109,48,F,1900,29.2,Normal,113.4,77.7,87.7,362.08,False
+PAT-00237,Miguel Jesus Silva,394238034,77,M,1100,24.4,Normal,135.2,85.3,97.4,168.91,False
+PAT-00238,Maria Sousa Costa,245274697,60,F,1050,18.8,Normal,138.5,82.2,123.7,138.98,False
+PAT-00239,Luís Oliveira Oliveira,237654317,41,M,1000,29.8,Normal,144.8,98.0,94.6,163.92,False
+PAT-00240,Pedro Costa Santos,322168733,43,M,1200,36.1,Type 2 diabetes,131.5,76.6,173.8,1620.57,False
+PAT-00241,Catarina Rodrigues Santos,375343178,45,F,1000,32.2,Normal,131.1,78.0,88.3,360.26,False
+PAT-00242,Inês Martins Rodrigues,199177955,60,F,1300,18.4,Normal,139.1,80.5,96.1,379.71,False
+PAT-00243,Manuel Silva Costa,310350469,75,M,1200,20.0,Oncology,129.5,84.4,88.0,11480.04,True
+PAT-00244,Beatriz Sousa Costa,315971749,71,F,1500,22.6,Hypertension,146.9,89.0,70.0,519.45,False
+PAT-00245,Helena Ferreira Oliveira,294558753,61,F,1700,19.8,Hypertension,172.1,117.1,93.9,631.13,False
+PAT-00246,Ana Costa Santos,164354492,33,F,1200,26.5,Hypertension,146.9,97.2,87.5,1014.64,False
+PAT-00247,Beatriz Pereira Santos,157309693,33,F,1500,28.2,Normal,126.2,78.6,87.9,240.07,False
+PAT-00248,João Costa Sousa,125747913,63,M,1000,20.3,Hypertension,146.5,94.8,86.1,534.01,False
+PAT-00249,Manuel Oliveira Ferreira,143876945,32,M,1200,30.3,Hypertension,164.1,101.4,108.8,625.44,False
+PAT-00250,Tiago Oliveira Sousa,337836068,50,M,2800,29.3,Oncology,135.2,86.5,122.5,8227.83,True
+PAT-00251,Sofia Silva Costa,357665989,59,F,2800,23.8,Cardiovascular,151.1,102.4,82.9,4878.23,False
+PAT-00252,Catarina Sousa Jesus,255694954,36,F,1500,25.5,Hypertension,153.3,97.2,116.3,710.86,False
+PAT-00253,Tiago Rodrigues Pereira,280528650,38,M,2800,18.5,Hypertension,160.5,98.5,81.8,884.49,False
+PAT-00254,Francisco Santos Oliveira,341925116,52,M,1500,24.8,Oncology,127.4,84.5,88.8,5021.12,True
+PAT-00255,José Silva Ferreira,296192295,62,M,1050,26.3,Hypertension,162.6,95.7,105.4,677.04,False
+PAT-00256,Mariana Pereira Sousa,211115737,71,F,2700,27.1,Normal,147.8,91.3,103.8,154.08,False
+PAT-00257,Beatriz Sousa Rodrigues,259399861,64,F,1300,28.2,Hypertension,166.3,104.0,72.0,403.54,False
+PAT-00258,João Ferreira Martins,111956994,55,M,1700,27.5,Normal,131.5,88.3,104.7,162.31,False
+PAT-00259,Luís Pereira Costa,191843152,42,M,1900,25.1,Normal,119.0,80.7,90.0,168.65,False
+PAT-00260,Helena Pereira Silva,240540454,37,F,1200,27.7,Cardiovascular,145.6,97.2,101.0,3102.4,False
+PAT-00261,José Sousa Martins,330276646,46,M,2600,31.5,Normal,127.8,83.5,113.0,278.03,False
+PAT-00262,Teresa Sousa Santos,135828841,61,F,1500,25.9,Normal,138.5,88.4,96.3,137.73,False
+PAT-00263,António Silva Silva,199320931,59,M,1300,27.9,Cardiovascular,165.1,103.2,98.2,4346.51,False
+PAT-00264,Tiago Sousa Santos,196151522,20,M,1200,25.4,Hypertension,143.9,92.7,106.3,351.66,False
+PAT-00265,Rita Costa Silva,351272137,41,F,2600,23.4,Cardiovascular,136.2,91.8,92.5,5129.34,False
+PAT-00266,Rui Jesus Costa,219382489,73,M,1100,28.9,Type 2 diabetes,150.8,102.3,154.2,1573.57,False
+PAT-00267,Miguel Pereira Martins,239722340,55,M,1050,23.8,Oncology,146.2,99.4,104.0,8041.34,True
+PAT-00268,Francisco Sousa Silva,266076301,31,M,2700,28.2,Type 2 diabetes,144.9,97.0,143.1,2153.19,False
+PAT-00269,Manuel Sousa Ferreira,187479092,88,M,1200,26.4,Hypertension,170.2,104.2,99.3,1192.92,False
+PAT-00270,José Martins Santos,393057612,54,M,1900,24.9,Normal,125.7,75.6,99.6,259.91,False
+PAT-00271,Luís Ferreira Santos,149114214,60,M,1900,24.8,Hypertension,158.1,92.2,90.6,360.29,False
+PAT-00272,Rui Santos Silva,183476135,60,M,2700,24.0,Hypertension,162.2,97.3,77.6,414.6,False
+PAT-00273,Pedro Jesus Santos,377598564,48,M,1700,19.6,Hypertension,156.5,100.1,85.3,998.58,False
+PAT-00274,Rita Costa Jesus,259470470,42,F,1900,28.2,Normal,143.2,91.8,72.4,371.91,False
+PAT-00275,Ana Sousa Rodrigues,174451743,88,F,2700,27.4,Normal,161.2,94.2,95.4,373.38,False
+PAT-00276,Tiago Pereira Sousa,254934774,70,M,2800,30.7,Normal,138.8,89.3,112.0,277.1,False
+PAT-00277,Pedro Santos Sousa,163626976,67,M,1000,23.9,Oncology,154.5,96.4,89.0,12664.02,True
+PAT-00278,Rita Pereira Costa,352644710,63,F,2600,37.0,Normal,121.2,80.0,126.8,157.86,False
+PAT-00279,Inês Costa Sousa,362456040,38,F,1050,24.6,Normal,132.9,83.0,90.7,173.5,False
+PAT-00280,Teresa Ferreira Sousa,196027101,74,F,2700,22.5,Type 2 diabetes,154.9,104.6,159.7,1108.71,False
+PAT-00281,Francisco Martins Martins,268464051,41,M,1000,22.0,Normal,128.2,78.7,73.0,351.58,False
+PAT-00282,Francisco Oliveira Oliveira,141751866,59,M,1100,19.3,Hypertension,154.7,95.6,71.8,303.55,False
+PAT-00283,Tiago Pereira Ferreira,225290097,28,M,1100,34.7,Type 2 diabetes,124.5,74.6,147.2,2075.22,False
+PAT-00284,José Santos Pereira,115778776,21,M,1700,33.7,Hypertension,143.3,95.4,70.4,955.16,False
+PAT-00285,Ana Silva Martins,169043066,59,F,1000,29.3,Hypertension,158.3,99.5,101.3,1191.22,False
+PAT-00286,João Costa Martins,279372654,41,M,1000,22.4,Cardiovascular,137.6,87.6,87.2,2683.78,False
+PAT-00287,Miguel Oliveira Santos,324939224,22,M,1500,36.5,Normal,123.5,79.7,132.6,367.12,False
+PAT-00288,Rui Jesus Rodrigues,346373585,63,M,2800,24.7,Hypertension,162.8,104.8,104.4,1006.46,False
+PAT-00289,Maria Silva Pereira,164936637,88,F,1500,25.1,Cardiovascular,162.7,102.0,86.2,2401.86,False
+PAT-00290,Manuel Jesus Ferreira,398959851,76,M,1300,34.1,Cardiovascular,180.3,117.2,101.4,5178.55,False
+PAT-00291,Sofia Sousa Jesus,128782274,50,F,1900,29.6,Cardiovascular,143.5,89.6,109.0,5330.28,False
+PAT-00292,António Pereira Costa,376808087,54,M,1700,39.1,Type 2 diabetes,129.4,80.8,184.3,1129.51,False
+PAT-00293,Catarina Sousa Jesus,120525198,68,F,1300,27.5,Hypertension,177.4,110.6,98.5,653.28,False
+PAT-00294,Rui Silva Ferreira,270243421,72,M,1700,24.5,Cardiovascular,165.0,109.5,79.6,2930.57,False
+PAT-00295,Mariana Silva Pereira,136980406,49,F,1000,23.6,Hypertension,161.8,100.3,86.9,1018.13,False
+PAT-00296,Ana Sousa Silva,364664183,55,F,1100,18.9,Cardiovascular,159.4,97.4,95.3,2045.39,False
+PAT-00297,Ana Santos Santos,135585223,59,F,1900,25.0,Cardiovascular,144.0,91.8,94.7,5081.55,False
+PAT-00298,Mariana Pereira Sousa,311006806,63,F,1200,32.3,Cardiovascular,149.8,89.1,102.9,6091.72,False
+PAT-00299,Sofia Costa Rodrigues,177590144,52,F,1000,29.3,Type 2 diabetes,122.6,70.1,156.5,3099.86,False
+PAT-00300,Catarina Martins Ferreira,286828011,52,F,1050,26.4,Normal,131.4,92.5,118.1,315.62,False
+PAT-00301,Mariana Jesus Jesus,182099746,76,F,2700,22.0,Cardiovascular,159.0,94.5,76.6,6192.47,False
+PAT-00302,Pedro Rodrigues Jesus,323315206,73,M,1200,27.4,Normal,149.1,97.0,85.0,295.82,False
+PAT-00303,Catarina Sousa Santos,239319953,62,F,1000,31.6,Hypertension,138.7,84.5,84.8,422.09,False
+PAT-00304,Inês Santos Silva,389066895,82,F,2600,28.4,Oncology,146.5,91.9,92.9,5816.49,True
+PAT-00305,Beatriz Ferreira Oliveira,372704653,48,F,1500,27.1,Cardiovascular,155.3,98.2,90.9,1625.31,False
+PAT-00306,Francisco Rodrigues Sousa,271297604,80,M,1300,22.8,Cardiovascular,165.5,100.2,92.7,5861.99,False
+PAT-00307,Tiago Pereira Pereira,158897336,63,M,2700,30.8,Hypertension,149.5,103.2,77.3,1153.96,False
+PAT-00308,Rita Santos Costa,141787240,88,F,1200,16.0,Hypertension,152.2,106.6,84.3,998.22,False
+PAT-00309,Francisco Santos Rodrigues,111515682,35,M,1700,28.2,Normal,123.4,80.3,90.7,324.02,False
+PAT-00310,José Santos Rodrigues,348555952,43,M,2600,41.8,Normal,101.1,67.9,99.9,352.47,False
+PAT-00311,Manuel Rodrigues Santos,315447872,61,M,1700,20.1,Normal,143.6,90.0,104.1,122.47,False
+PAT-00312,Francisco Jesus Ferreira,247050176,60,M,1100,25.2,Type 2 diabetes,140.2,86.2,132.7,1736.26,False
+PAT-00313,Miguel Martins Sousa,344907528,85,M,1900,26.3,Normal,153.8,97.5,115.6,160.96,False
+PAT-00314,Manuel Martins Sousa,127983691,43,M,2600,24.2,Type 2 diabetes,137.6,84.4,152.1,1153.67,False
+PAT-00315,Miguel Santos Jesus,395032014,68,M,1050,31.7,Normal,144.0,92.5,86.0,383.27,False
+PAT-00316,Manuel Costa Oliveira,296536096,73,M,1050,28.6,Cardiovascular,174.4,105.0,70.0,3572.09,False
+PAT-00317,Luís Costa Silva,123431403,65,M,1900,27.0,Hypertension,155.9,97.1,102.7,792.39,False
+PAT-00318,Mariana Sousa Oliveira,193753422,39,F,1050,30.4,Cardiovascular,146.4,92.0,116.5,2842.04,False
+PAT-00319,António Sousa Silva,293034972,77,M,2700,26.4,Hypertension,150.5,88.8,96.6,1067.9,False
+PAT-00320,Beatriz Costa Oliveira,216762514,74,F,1050,45.0,Cardiovascular,150.0,97.7,110.2,1978.76,False
+PAT-00321,Helena Oliveira Sousa,117418457,64,F,2800,27.0,Type 2 diabetes,137.5,88.6,158.3,2118.69,False
+PAT-00322,Maria Martins Costa,293424915,57,F,1900,27.3,Oncology,116.1,74.7,102.2,7634.19,True
+PAT-00323,António Ferreira Martins,131970673,58,M,1300,19.3,Hypertension,154.3,100.6,93.5,949.71,False
+PAT-00324,Catarina Rodrigues Silva,337063934,53,F,1100,23.9,Normal,141.1,89.0,91.1,274.9,False
+PAT-00325,Mariana Sousa Silva,238942524,64,F,1200,32.3,Normal,143.0,89.0,77.6,371.92,False
+PAT-00326,Beatriz Oliveira Jesus,120177473,54,F,2600,20.7,Cardiovascular,150.8,98.4,112.4,5485.53,False
+PAT-00327,Sofia Oliveira Martins,218955862,40,F,2600,17.8,Hypertension,169.9,106.6,73.6,515.0,False
+PAT-00328,Maria Jesus Jesus,315935445,37,F,1100,26.5,Hypertension,147.3,96.0,81.5,469.84,False
+PAT-00329,Rita Rodrigues Martins,234975662,42,F,1500,33.7,Hypertension,153.6,94.2,108.4,1152.88,False
+PAT-00330,Miguel Sousa Oliveira,324372431,58,M,2800,26.5,Hypertension,167.9,102.7,111.6,698.6,False
+PAT-00331,Beatriz Rodrigues Santos,253736696,54,F,1100,24.8,Cardiovascular,137.8,81.7,94.3,4789.42,False
+PAT-00332,Tiago Martins Rodrigues,348024238,57,M,1900,18.8,Cardiovascular,143.7,88.7,89.2,4337.34,False
+PAT-00333,Inês Pereira Oliveira,133614729,62,F,1050,28.5,Oncology,138.2,85.3,76.5,8725.87,True
+PAT-00334,Catarina Martins Rodrigues,168750532,44,F,2700,29.6,Cardiovascular,161.3,101.2,85.4,3833.6,False
+PAT-00335,Rui Sousa Martins,217844911,77,M,1050,19.1,Cardiovascular,149.7,101.4,112.0,3513.98,False
+PAT-00336,Inês Costa Oliveira,328521372,50,F,1200,32.3,Type 2 diabetes,118.6,88.7,157.0,1139.24,False
+PAT-00337,Pedro Jesus Pereira,343882131,47,M,1500,30.2,Hypertension,164.2,105.8,114.3,496.05,False
+PAT-00338,Mariana Silva Martins,343995606,62,F,1300,32.3,Type 2 diabetes,139.3,82.7,160.9,1131.98,False
+PAT-00339,Francisco Oliveira Costa,383251840,25,M,1050,29.2,Oncology,141.6,91.3,93.5,12595.04,True
+PAT-00340,Sofia Costa Martins,278246962,41,F,1900,29.6,Oncology,129.0,86.9,116.6,9120.88,True
+PAT-00341,José Santos Pereira,171964358,70,M,1000,28.9,Normal,142.5,92.5,95.6,215.38,False
+PAT-00342,Ana Pereira Rodrigues,332984150,26,F,2800,30.8,Hypertension,137.0,83.4,70.0,905.85,False
+PAT-00343,Ana Martins Ferreira,265367456,72,F,1000,19.0,Cardiovascular,157.3,98.4,70.0,2791.98,False
+PAT-00344,Teresa Martins Ferreira,172143953,78,F,1200,20.1,Hypertension,160.0,109.9,82.9,631.79,False
+PAT-00345,Mariana Santos Silva,170592157,48,F,2800,23.0,Normal,124.0,80.5,110.6,419.52,False
+PAT-00346,Helena Jesus Santos,346681116,59,F,1050,25.7,Oncology,134.2,92.9,95.1,13022.6,True
+PAT-00347,Sofia Santos Pereira,127680636,72,F,1000,28.2,Hypertension,155.0,104.3,99.1,328.49,False
+PAT-00348,António Pereira Costa,118707666,47,M,2600,27.9,Hypertension,155.5,95.0,95.1,779.24,False
+PAT-00349,Ana Jesus Martins,317729747,68,F,1000,32.2,Type 2 diabetes,147.1,91.9,130.6,2232.53,False
+PAT-00350,Miguel Santos Martins,152746006,43,M,2700,32.4,Hypertension,138.5,91.3,80.5,328.71,False
+PAT-00351,Teresa Santos Martins,191317418,46,F,1300,22.5,Normal,129.1,82.7,99.6,149.47,False
+PAT-00352,José Martins Oliveira,340092052,41,M,2700,27.5,Hypertension,126.6,80.0,101.0,1052.51,False
+PAT-00353,Teresa Santos Pereira,252054291,59,F,1100,22.6,Hypertension,171.6,99.6,88.6,1086.29,False
+PAT-00354,Sofia Ferreira Pereira,323183288,73,F,1050,25.4,Normal,151.1,100.2,99.3,103.11,False
+PAT-00355,José Santos Martins,245699930,51,M,2800,27.9,Hypertension,168.5,110.7,111.4,926.41,False
+PAT-00356,Mariana Jesus Martins,185407856,34,F,2600,16.0,Hypertension,142.5,94.2,102.8,1100.76,False
+PAT-00357,Ana Silva Oliveira,118827182,37,F,2800,40.6,Normal,129.1,88.7,122.5,327.72,False
+PAT-00358,Beatriz Ferreira Martins,316283089,60,F,1200,29.1,Hypertension,155.9,99.5,102.4,572.97,False
+PAT-00359,Mariana Martins Santos,158878073,84,F,1300,23.6,Hypertension,181.0,113.7,101.2,950.55,False
+PAT-00360,Teresa Ferreira Oliveira,223124766,60,F,1700,37.2,Cardiovascular,153.4,95.9,80.6,1623.08,False
+PAT-00361,Beatriz Jesus Ferreira,238418651,48,F,1300,24.7,Hypertension,139.1,92.2,100.0,658.45,False
+PAT-00362,António Pereira Pereira,250254515,66,M,1100,26.9,Normal,134.3,89.7,78.9,415.23,False
+PAT-00363,Manuel Santos Ferreira,345498060,50,M,1300,24.1,Type 2 diabetes,136.2,78.0,158.5,1066.24,False
+PAT-00364,Francisco Pereira Pereira,233376685,48,M,1700,35.4,Hypertension,156.4,92.2,117.6,576.83,False
+PAT-00365,Rita Ferreira Sousa,254355017,39,F,1000,25.8,Normal,111.4,73.9,88.7,447.29,False
+PAT-00366,Miguel Santos Pereira,249372871,77,M,1200,27.0,Cardiovascular,163.5,92.0,80.4,6374.09,False
+PAT-00367,Ana Ferreira Pereira,216033575,18,F,1200,32.7,Normal,131.5,90.8,112.1,322.79,False
+PAT-00368,Ana Silva Oliveira,392995968,67,F,1000,29.2,Cardiovascular,133.4,87.3,116.2,6042.16,False
+PAT-00369,Miguel Pereira Jesus,166713211,47,M,1050,26.1,Cardiovascular,153.9,90.7,87.2,2533.93,False
+PAT-00370,Inês Sousa Ferreira,199378197,47,F,1500,32.1,Type 2 diabetes,118.5,71.4,164.7,2421.35,False
+PAT-00371,Mariana Martins Silva,277093941,81,F,1050,41.6,Type 2 diabetes,134.2,93.4,161.0,2393.5,False
+PAT-00372,Rui Pereira Oliveira,262441049,43,M,1200,27.9,Normal,118.2,87.2,94.8,386.48,False
+PAT-00373,Pedro Rodrigues Silva,120746141,43,M,1700,26.9,Cardiovascular,157.2,95.9,87.7,3973.57,False
+PAT-00374,Tiago Rodrigues Sousa,320386670,52,M,2700,27.1,Normal,145.2,82.5,102.6,108.6,False
+PAT-00375,Francisco Rodrigues Oliveira,227114917,61,M,1050,33.3,Hypertension,150.6,96.1,78.0,773.97,False
+PAT-00376,Tiago Jesus Sousa,147814361,47,M,1300,23.6,Hypertension,144.9,89.2,92.8,500.36,False
+PAT-00377,Mariana Martins Pereira,351717951,29,F,1050,25.0,Normal,138.9,90.9,119.4,235.65,False
+PAT-00378,Francisco Martins Silva,392320799,40,M,1300,20.0,Normal,119.9,86.7,84.5,282.07,False
+PAT-00379,Miguel Silva Costa,229361602,75,M,1500,21.3,Normal,142.4,84.1,103.0,355.17,False
+PAT-00380,Beatriz Oliveira Oliveira,152062214,55,F,2600,24.0,Normal,143.0,95.1,112.1,233.54,False
+PAT-00381,Beatriz Oliveira Oliveira,118395694,61,F,1300,26.0,Normal,125.3,91.5,73.2,266.08,False
+PAT-00382,Mariana Martins Costa,210089099,50,F,2800,36.2,Type 2 diabetes,139.8,97.0,155.5,2162.4,False
+PAT-00383,Catarina Jesus Sousa,183106237,43,F,1050,29.0,Hypertension,134.6,83.5,70.0,1164.02,False
+PAT-00384,Manuel Martins Ferreira,292197903,81,M,1000,22.3,Cardiovascular,143.0,84.3,100.6,6579.93,False
+PAT-00385,Manuel Martins Silva,184755249,51,M,1000,23.1,Cardiovascular,148.0,96.3,101.2,4942.71,False
+PAT-00386,Teresa Martins Sousa,150072733,47,F,1200,33.7,Cardiovascular,142.2,93.0,105.6,4612.73,False
+PAT-00387,Catarina Jesus Santos,257946316,72,F,1100,32.2,Hypertension,166.1,97.5,106.2,862.73,False
+PAT-00388,Teresa Santos Pereira,391994039,42,F,1050,26.4,Type 2 diabetes,123.6,78.5,140.0,3065.55,False
+PAT-00389,Manuel Oliveira Martins,326909462,44,M,1100,24.3,Cardiovascular,134.5,81.0,89.4,5305.93,False
+PAT-00390,Sofia Jesus Rodrigues,151587556,54,F,2800,32.2,Cardiovascular,164.0,94.0,115.5,2098.05,False
+PAT-00391,Catarina Sousa Oliveira,199115067,54,F,2600,22.0,Type 2 diabetes,118.7,64.7,147.3,3133.64,False
+PAT-00392,José Sousa Costa,285662079,58,M,1000,28.2,Hypertension,172.6,102.6,119.8,396.79,False
+PAT-00393,Catarina Ferreira Ferreira,214864868,87,F,2800,39.6,Hypertension,166.9,101.7,115.0,1079.25,False
+PAT-00394,Ana Ferreira Santos,311062816,59,F,1100,27.3,Oncology,150.5,88.0,107.1,8591.89,True
+PAT-00395,Miguel Silva Rodrigues,348993150,18,M,1300,22.9,Type 2 diabetes,104.1,60.0,163.1,1210.84,False
+PAT-00396,Rui Martins Oliveira,250604322,59,M,1200,28.3,Hypertension,145.6,91.0,100.4,1112.35,False
+PAT-00397,Maria Jesus Silva,196362932,55,F,1300,24.2,Oncology,124.3,89.8,108.0,12466.01,True
+PAT-00398,Pedro Rodrigues Santos,154641853,55,M,2600,20.5,Cardiovascular,146.8,94.5,77.0,3624.91,False
+PAT-00399,Miguel Santos Ferreira,140461597,58,M,1900,29.9,Normal,121.5,78.5,79.4,361.12,False
+PAT-00400,Tiago Sousa Ferreira,234483920,54,M,1700,32.2,Normal,149.6,94.6,99.4,262.42,False
+PAT-00401,Rui Sousa Martins,128194279,53,M,1700,24.9,Oncology,133.1,87.5,96.9,9512.77,True
+PAT-00402,Ana Ferreira Rodrigues,132961058,64,F,2600,24.6,Oncology,143.8,92.9,112.1,7524.16,True
+PAT-00403,Helena Jesus Oliveira,352559835,45,F,1100,22.1,Hypertension,130.1,78.6,78.0,702.25,False
+PAT-00404,António Sousa Ferreira,368573057,39,M,1300,25.6,Normal,101.2,65.4,114.4,319.04,False
+PAT-00405,Inês Sousa Costa,269811702,88,F,1050,23.8,Type 2 diabetes,148.8,85.6,126.4,3069.14,False
+PAT-00406,Sofia Silva Oliveira,311887329,43,F,1900,21.9,Normal,127.7,82.8,77.6,102.23,False
+PAT-00407,Rui Oliveira Rodrigues,390323060,56,M,1300,37.0,Cardiovascular,145.6,98.0,136.3,5656.25,False
+PAT-00408,Sofia Martins Martins,382051424,30,F,1900,28.6,Normal,119.6,65.1,71.8,216.77,False
+PAT-00409,Pedro Martins Costa,367936065,56,M,1700,29.2,Type 2 diabetes,123.6,78.1,159.8,3193.51,False
+PAT-00410,Inês Martins Jesus,187675349,39,F,1200,30.8,Hypertension,151.2,93.1,97.1,359.33,False
+PAT-00411,Teresa Ferreira Rodrigues,339590061,47,F,1050,30.2,Normal,125.7,83.2,98.5,140.59,False
+PAT-00412,Maria Costa Costa,349265817,71,F,2800,24.4,Oncology,147.9,99.1,79.1,12613.78,True
+PAT-00413,José Sousa Jesus,394934508,62,M,1200,27.6,Normal,127.5,84.1,104.7,110.14,False
+PAT-00414,Maria Ferreira Ferreira,217959469,63,F,1050,25.1,Hypertension,158.0,110.9,114.3,723.76,False
+PAT-00415,Tiago Costa Martins,386060019,26,M,1200,28.5,Type 2 diabetes,131.7,93.3,130.2,1380.03,False
+PAT-00416,Tiago Martins Silva,395263093,83,M,2700,28.0,Type 2 diabetes,131.2,81.3,158.1,2780.95,False
+PAT-00417,Manuel Pereira Pereira,357013514,35,M,1100,24.6,Normal,114.5,72.4,95.5,237.18,False
+PAT-00418,Rita Santos Pereira,324299991,78,F,2800,20.7,Hypertension,168.3,120.0,98.7,935.04,False
+PAT-00419,António Santos Santos,340324128,70,M,1500,27.0,Normal,124.1,78.6,81.7,264.41,False
+PAT-00420,Ana Costa Oliveira,260360625,63,F,2700,25.4,Hypertension,162.1,98.8,122.2,357.95,False
+PAT-00421,Beatriz Oliveira Martins,361430479,40,F,1900,18.7,Hypertension,147.4,96.3,104.7,840.79,False
+PAT-00422,Tiago Costa Rodrigues,222419114,56,M,1000,28.8,Normal,137.2,92.7,86.1,209.73,False
+PAT-00423,Miguel Rodrigues Santos,328564455,46,M,1500,31.3,Oncology,147.9,100.9,72.9,9406.94,True
+PAT-00424,Rui Santos Oliveira,327483746,54,M,1300,41.5,Hypertension,169.5,92.0,106.4,1085.28,False
+PAT-00425,Catarina Oliveira Ferreira,382729393,50,F,1100,24.5,Type 2 diabetes,124.3,78.2,134.0,1772.58,False
+PAT-00426,Helena Silva Ferreira,231819503,21,F,1700,23.9,Normal,116.5,72.7,83.6,155.97,False
+PAT-00427,Rui Martins Silva,259919137,72,M,1050,21.5,Normal,132.1,94.0,87.6,328.3,False
+PAT-00428,Rita Sousa Silva,169477940,53,F,1900,27.3,Normal,126.2,78.5,71.1,185.7,False
+PAT-00429,Francisco Oliveira Santos,260433229,46,M,2700,27.3,Oncology,126.3,82.4,110.0,13191.19,True
+PAT-00430,Sofia Santos Santos,230319612,45,F,1050,22.7,Normal,122.4,72.5,89.8,179.39,False
+PAT-00431,Beatriz Oliveira Ferreira,258359966,60,F,1500,25.5,Normal,128.8,82.6,114.8,160.1,False
+PAT-00432,Sofia Santos Martins,351795805,40,F,1900,18.4,Hypertension,141.2,90.5,80.5,999.0,False
+PAT-00433,Sofia Sousa Costa,382094227,18,F,1000,31.1,Normal,128.1,75.6,98.6,147.47,False
+PAT-00434,Teresa Rodrigues Ferreira,156264104,61,F,1300,22.9,Cardiovascular,157.4,102.7,100.3,4258.81,False
+PAT-00435,Pedro Ferreira Santos,263296035,62,M,1100,26.1,Type 2 diabetes,142.7,86.1,131.1,2297.28,False
+PAT-00436,António Ferreira Santos,325178018,51,M,1000,20.4,Type 2 diabetes,132.3,84.4,136.3,2376.03,False
+PAT-00437,João Sousa Costa,395135432,36,M,2600,23.7,Cardiovascular,126.7,78.4,100.4,4566.37,False
+PAT-00438,Beatriz Sousa Ferreira,393097788,55,F,1300,25.0,Normal,135.3,83.6,93.8,392.64,False
+PAT-00439,Beatriz Jesus Rodrigues,371122833,31,F,2600,26.3,Normal,134.1,86.2,83.3,239.87,False
+PAT-00440,Inês Ferreira Silva,375981735,38,F,1700,28.7,Normal,134.0,80.6,92.9,371.84,False
+PAT-00441,Maria Santos Martins,378398101,42,F,2700,34.1,Type 2 diabetes,130.3,78.6,126.2,2446.56,False
+PAT-00442,Pedro Oliveira Martins,294630698,68,M,2800,30.0,Type 2 diabetes,146.2,83.4,156.0,2253.87,False
+PAT-00443,Ana Ferreira Pereira,161037557,48,F,1700,31.3,Hypertension,161.6,98.8,83.0,867.56,False
+PAT-00444,Rui Rodrigues Jesus,210865987,47,M,1200,34.1,Normal,135.1,86.8,94.6,345.75,False
+PAT-00445,António Jesus Silva,340816531,85,M,1300,29.2,Hypertension,169.6,107.6,98.4,1099.66,False
+PAT-00446,Sofia Costa Silva,173900042,60,F,2700,26.1,Normal,149.2,90.9,112.5,300.78,False
+PAT-00447,Teresa Jesus Costa,360697922,59,F,1300,31.6,Type 2 diabetes,145.7,98.3,147.2,1605.34,False
+PAT-00448,Inês Silva Rodrigues,243353515,48,F,1500,31.9,Normal,136.6,82.7,91.2,271.93,False
+PAT-00449,Luís Martins Rodrigues,370742401,44,M,1100,29.6,Hypertension,162.8,96.2,93.8,1098.01,False
+PAT-00450,Ana Santos Martins,120871665,19,F,2800,20.3,Hypertension,138.4,99.9,96.0,866.55,False
+PAT-00451,Manuel Sousa Santos,394334722,69,M,1900,22.6,Normal,145.7,90.3,107.6,359.47,False
+PAT-00452,Rita Sousa Oliveira,241609787,61,F,1200,25.0,Hypertension,152.8,101.3,116.2,1005.82,False
+PAT-00453,Maria Jesus Santos,277011657,51,F,1700,30.3,Type 2 diabetes,123.9,83.0,142.2,2060.4,False
+PAT-00454,Luís Sousa Martins,293014925,52,M,1300,26.2,Normal,139.3,85.9,70.0,271.49,False
+PAT-00455,João Jesus Santos,245813991,66,M,1050,32.3,Hypertension,161.5,91.5,92.4,608.02,False
+PAT-00456,Miguel Rodrigues Ferreira,390148199,29,M,2700,33.3,Hypertension,166.8,114.6,82.1,661.49,False
+PAT-00457,Beatriz Santos Sousa,130929697,45,F,2700,32.7,Normal,122.5,77.8,122.0,119.29,False
+PAT-00458,António Pereira Costa,334629835,36,M,2700,32.7,Normal,126.3,76.8,112.8,311.51,False
+PAT-00459,Catarina Costa Costa,361408755,82,F,1300,21.8,Normal,133.6,85.3,84.0,341.03,False
+PAT-00460,Mariana Jesus Pereira,128687314,68,F,1100,28.7,Normal,148.0,86.3,124.7,305.03,False
+PAT-00461,Teresa Martins Sousa,151196044,19,F,1000,23.6,Hypertension,156.8,99.0,86.7,551.48,False
+PAT-00462,Rui Martins Ferreira,249328634,30,M,2600,19.6,Cardiovascular,141.8,91.0,79.6,4484.28,False
+PAT-00463,Rita Martins Ferreira,338283197,52,F,1200,25.0,Cardiovascular,143.2,84.7,82.8,5267.63,False
+PAT-00464,Pedro Ferreira Costa,354690471,46,M,2700,33.4,Type 2 diabetes,128.2,84.7,153.6,1393.74,False
+PAT-00465,Rita Santos Pereira,390564168,33,F,2700,28.6,Oncology,113.5,76.8,95.5,12750.58,True
+PAT-00466,Rita Oliveira Sousa,336935661,85,F,1050,37.8,Hypertension,175.9,107.9,100.8,484.11,False
+PAT-00467,Maria Martins Jesus,279697602,59,F,2800,27.2,Cardiovascular,159.2,90.2,105.8,6149.37,False
+PAT-00468,Helena Santos Sousa,226487335,62,F,1050,40.9,Cardiovascular,155.1,96.1,97.1,6671.09,False
+PAT-00469,José Pereira Pereira,145414644,43,M,1500,27.2,Normal,159.5,105.8,87.0,294.67,False
+PAT-00470,Catarina Rodrigues Oliveira,210000078,66,F,1500,26.4,Normal,141.5,85.2,77.0,106.78,False
+PAT-00471,João Sousa Ferreira,157927275,48,M,2800,20.9,Hypertension,159.4,91.6,82.8,792.52,False
+PAT-00472,João Costa Oliveira,171204605,49,M,1900,32.1,Cardiovascular,152.9,103.2,76.8,6620.76,False
+PAT-00473,Pedro Jesus Silva,358020536,64,M,2700,24.0,Hypertension,142.9,80.4,93.1,973.73,False
+PAT-00474,António Costa Martins,324917700,28,M,1700,23.4,Normal,122.6,79.1,91.0,434.74,False
+PAT-00475,Pedro Pereira Rodrigues,211483382,80,M,2700,33.1,Type 2 diabetes,145.9,90.7,167.3,2923.55,False
+PAT-00476,Rui Oliveira Jesus,169754848,57,M,2700,32.4,Normal,125.7,72.7,94.2,126.91,False
+PAT-00477,Miguel Pereira Ferreira,110243653,74,M,2700,32.3,Type 2 diabetes,126.9,84.4,126.7,2458.05,False
+PAT-00478,Rita Ferreira Pereira,125923378,37,F,1300,24.7,Cardiovascular,147.6,93.0,79.7,4570.54,False
+PAT-00479,Sofia Rodrigues Ferreira,342411791,39,F,1300,26.1,Cardiovascular,147.2,89.5,97.4,5332.22,False
+PAT-00480,Pedro Sousa Jesus,147807431,35,M,2800,26.0,Cardiovascular,130.5,78.2,99.5,2826.52,False
+PAT-00481,Rui Silva Oliveira,143774691,58,M,2600,30.3,Normal,144.3,86.8,104.0,409.6,False
+PAT-00482,António Sousa Martins,371545787,55,M,2800,34.8,Hypertension,150.3,96.6,96.5,1124.7,False
+PAT-00483,Inês Costa Rodrigues,369133176,47,F,1700,28.1,Cardiovascular,150.7,94.2,93.1,1954.73,False
+PAT-00484,Francisco Oliveira Silva,338542085,38,M,2800,37.5,Cardiovascular,139.1,88.9,87.0,5824.06,False
+PAT-00485,Francisco Pereira Jesus,167400821,34,M,1900,30.9,Normal,125.4,84.6,98.7,436.81,False
+PAT-00486,Tiago Martins Silva,259196470,53,M,2600,25.2,Normal,125.5,84.2,70.0,400.1,False
+PAT-00487,Tiago Pereira Oliveira,184075453,47,M,1050,30.5,Normal,113.5,67.3,88.8,445.12,False
+PAT-00488,Rui Jesus Silva,330152486,43,M,1700,35.8,Hypertension,172.2,110.2,102.7,838.0,False
+PAT-00489,Inês Martins Costa,130402659,79,F,2600,37.7,Hypertension,168.8,102.1,86.9,772.57,False
+PAT-00490,Sofia Costa Jesus,394722798,53,F,2600,32.6,Cardiovascular,149.4,98.5,70.0,4834.61,False
+PAT-00491,Sofia Martins Martins,288271156,74,F,2800,26.4,Cardiovascular,149.0,91.9,99.0,3425.83,False
+PAT-00492,Teresa Ferreira Ferreira,382630178,45,F,1200,25.3,Cardiovascular,150.2,93.5,85.1,5077.6,False
+PAT-00493,Mariana Costa Oliveira,278223030,58,F,1200,29.2,Normal,132.4,81.0,95.7,328.63,False
+PAT-00494,Miguel Martins Ferreira,120712125,53,M,2800,35.6,Hypertension,153.2,104.2,103.4,368.12,False
+PAT-00495,Rita Ferreira Oliveira,351633552,27,F,2800,28.4,Normal,126.1,76.2,89.2,246.2,False
+PAT-00496,Maria Pereira Sousa,261957735,77,F,1050,28.6,Normal,127.3,84.0,88.3,150.71,False
+PAT-00497,Francisco Martins Santos,268373416,52,M,1300,26.6,Normal,125.8,96.0,85.5,349.59,False
+PAT-00498,Catarina Pereira Martins,240274263,66,F,2800,24.8,Normal,119.2,81.4,112.9,383.39,False
+PAT-00499,Rui Costa Santos,239616658,42,M,1100,25.6,Normal,140.0,92.7,91.8,370.67,False
+PAT-00500,Beatriz Santos Oliveira,246518476,51,F,2600,27.0,Hypertension,156.7,102.6,100.4,1121.93,False
+PAT-00501,Maria Rodrigues Pereira,123589238,40,F,1050,35.8,Normal,129.8,93.3,101.2,221.07,False
+PAT-00502,Sofia Silva Jesus,162864737,74,F,1050,25.2,Normal,142.0,91.5,95.8,168.34,False
+PAT-00503,Teresa Jesus Silva,129511416,59,F,2600,26.6,Oncology,148.0,94.7,85.0,14220.98,True
+PAT-00504,Inês Sousa Costa,111422277,60,F,1700,22.5,Normal,131.2,82.6,130.9,228.24,False
+PAT-00505,Ana Santos Ferreira,399736006,76,F,1700,29.9,Hypertension,172.4,102.5,97.6,510.98,False
+PAT-00506,Helena Santos Sousa,152468953,73,F,2700,33.6,Hypertension,154.8,93.5,96.7,835.79,False
+PAT-00507,Pedro Sousa Jesus,174270362,66,M,1200,35.2,Normal,147.0,90.2,106.7,432.4,False
+PAT-00508,Inês Jesus Santos,142450672,31,F,1500,27.3,Normal,108.3,70.4,73.0,178.66,False
+PAT-00509,Sofia Ferreira Santos,399599117,43,F,1700,29.2,Type 2 diabetes,115.1,70.1,156.4,2693.66,False
+PAT-00510,João Santos Santos,265136398,38,M,2600,25.6,Hypertension,136.3,97.2,80.4,880.32,False
+PAT-00511,José Silva Silva,183757465,66,M,1200,28.9,Cardiovascular,154.1,100.3,102.0,5337.75,False
+PAT-00512,Helena Silva Silva,272905315,57,F,1700,27.8,Hypertension,154.0,95.6,105.6,1077.14,False
+PAT-00513,João Santos Costa,119751779,32,M,1300,26.6,Cardiovascular,164.6,98.7,94.6,2561.09,False
+PAT-00514,Tiago Martins Costa,181851479,51,M,1500,27.0,Type 2 diabetes,118.7,72.9,136.3,1191.32,False
+PAT-00515,João Martins Silva,177867804,30,M,2700,28.5,Hypertension,140.3,92.6,84.4,1138.05,False
+PAT-00516,Pedro Oliveira Jesus,321005954,53,M,1300,25.0,Cardiovascular,147.1,97.9,97.2,2899.05,False
+PAT-00517,José Rodrigues Oliveira,178560040,28,M,1900,25.2,Normal,110.1,66.8,76.4,438.03,False
+PAT-00518,Mariana Sousa Martins,245689474,62,F,2800,35.8,Cardiovascular,162.7,97.2,89.8,6623.24,False
+PAT-00519,Francisco Oliveira Martins,389272967,60,M,2600,42.9,Hypertension,155.5,99.8,95.9,398.34,False
+PAT-00520,Inês Santos Oliveira,393704730,85,F,2800,21.2,Normal,150.3,101.2,102.4,242.11,False
+PAT-00521,Maria Santos Oliveira,280218718,68,F,1700,21.0,Type 2 diabetes,139.2,86.8,170.8,1495.77,False
+PAT-00522,Miguel Martins Ferreira,119765510,47,M,1200,22.1,Type 2 diabetes,130.4,84.4,172.7,2871.7,False
+PAT-00523,Francisco Santos Martins,221950135,67,M,2800,25.8,Normal,152.6,95.0,74.8,165.0,False
+PAT-00524,Sofia Martins Jesus,133143520,32,F,1900,30.9,Type 2 diabetes,111.5,76.6,136.6,1718.7,False
+PAT-00525,Pedro Pereira Sousa,298796203,39,M,1100,29.3,Normal,139.3,85.3,91.9,177.1,False
+PAT-00526,Pedro Rodrigues Jesus,191831694,59,M,1200,27.1,Hypertension,153.7,109.4,105.8,551.81,False
+PAT-00527,Teresa Silva Jesus,289737769,19,F,1100,28.9,Type 2 diabetes,116.8,76.0,152.3,3017.94,False
+PAT-00528,Rita Ferreira Pereira,216624440,53,F,2700,23.2,Normal,135.1,81.5,80.2,241.48,False
+PAT-00529,Rita Ferreira Oliveira,379698476,38,F,1050,25.2,Hypertension,139.5,92.4,94.1,739.01,False
+PAT-00530,Pedro Rodrigues Sousa,288815919,56,M,2600,26.2,Cardiovascular,153.2,87.8,104.3,1542.13,False
+PAT-00531,Ana Ferreira Sousa,331067484,37,F,1700,19.8,Normal,141.7,95.3,77.7,229.93,False
+PAT-00532,Mariana Ferreira Ferreira,261267371,61,F,1000,21.3,Hypertension,148.4,87.5,118.6,525.63,False
+PAT-00533,José Costa Ferreira,329181576,54,M,1700,21.5,Normal,138.6,86.8,90.6,231.86,False
+PAT-00534,Catarina Oliveira Rodrigues,277107835,76,F,2600,30.2,Cardiovascular,170.0,107.1,81.1,4625.7,False
+PAT-00535,Manuel Rodrigues Sousa,332981396,54,M,1900,27.5,Normal,129.3,80.8,70.0,330.83,False
+PAT-00536,Manuel Pereira Rodrigues,298802618,42,M,1500,29.4,Normal,130.4,84.2,90.0,325.19,False
+PAT-00537,Catarina Rodrigues Costa,383969239,50,F,1200,18.9,Cardiovascular,144.0,93.5,101.2,6239.43,False
+PAT-00538,Pedro Rodrigues Silva,293811704,32,M,1050,20.1,Normal,131.9,84.2,85.6,412.11,False
+PAT-00539,Miguel Oliveira Silva,287306234,60,M,1000,29.6,Hypertension,145.7,93.3,74.1,694.58,False
+PAT-00540,Beatriz Oliveira Silva,252885595,63,F,1200,16.0,Cardiovascular,130.9,83.1,113.9,6177.38,False
+PAT-00541,Helena Ferreira Pereira,360631243,88,F,1700,32.8,Cardiovascular,170.0,117.3,102.4,3898.99,False
+PAT-00542,Beatriz Jesus Martins,268960236,44,F,1000,18.9,Normal,119.8,77.9,83.4,342.7,False
+PAT-00543,Rita Ferreira Jesus,125712894,50,F,2800,30.6,Type 2 diabetes,141.5,95.0,128.0,2531.93,False
+PAT-00544,Teresa Oliveira Costa,374465495,45,F,1700,22.4,Cardiovascular,143.1,93.7,109.4,2126.52,False
+PAT-00545,João Martins Sousa,384219384,57,M,1200,31.8,Normal,130.2,81.5,104.7,163.36,False
+PAT-00546,Francisco Costa Oliveira,135813770,60,M,2800,45.0,Cardiovascular,159.5,97.6,70.0,4239.72,False
+PAT-00547,João Rodrigues Martins,391223243,53,M,1100,17.5,Cardiovascular,146.1,98.7,91.9,2646.6,False
+PAT-00548,Rui Sousa Oliveira,258950693,71,M,2800,29.8,Hypertension,159.4,89.2,78.8,331.64,False
+PAT-00549,Helena Costa Rodrigues,184563897,44,F,1200,19.0,Oncology,131.5,88.9,70.0,4681.79,True
+PAT-00550,Pedro Sousa Martins,280331200,70,M,1300,28.4,Hypertension,156.5,102.9,104.7,343.72,False
+PAT-00551,Manuel Silva Oliveira,376940029,63,M,1300,25.4,Oncology,156.5,96.2,113.1,6810.74,True
+PAT-00552,Luís Rodrigues Oliveira,180032367,54,M,2800,26.9,Cardiovascular,141.6,93.6,73.8,3836.06,False
+PAT-00553,Luís Sousa Pereira,393863479,49,M,1100,22.3,Type 2 diabetes,129.5,88.6,147.5,2311.05,False
+PAT-00554,Beatriz Costa Oliveira,298267818,88,F,2800,30.3,Hypertension,171.8,103.2,86.0,324.0,False
+PAT-00555,Rui Sousa Costa,165363437,41,M,1200,20.3,Cardiovascular,145.2,89.8,91.6,5844.74,False
+PAT-00556,Francisco Costa Santos,239786954,59,M,1200,32.9,Cardiovascular,151.5,93.0,72.9,3545.06,False
+PAT-00557,Francisco Ferreira Santos,221281841,42,M,1900,24.4,Type 2 diabetes,133.7,89.7,150.6,2705.97,False
+PAT-00558,Maria Costa Silva,327516376,83,F,1900,20.4,Type 2 diabetes,144.5,97.0,161.5,2838.93,False
+PAT-00559,Catarina Oliveira Pereira,335669643,68,F,1200,35.1,Normal,137.5,81.0,106.8,397.69,False
+PAT-00560,Rita Costa Martins,158912734,43,F,1050,26.0,Normal,143.3,97.2,121.8,164.6,False
+PAT-00561,Miguel Silva Ferreira,331162806,62,M,1300,37.1,Hypertension,164.4,95.5,102.4,1051.33,False
+PAT-00562,Luís Sousa Santos,264404532,58,M,1500,32.8,Hypertension,161.4,101.0,103.3,528.68,False
+PAT-00563,Ana Sousa Sousa,173680038,46,F,1000,22.8,Hypertension,160.8,86.8,96.2,395.19,False
+PAT-00564,Ana Oliveira Rodrigues,392035879,66,F,1000,25.9,Cardiovascular,172.6,110.6,118.1,4248.16,False
+PAT-00565,Ana Pereira Pereira,255875649,60,F,2800,26.9,Type 2 diabetes,133.6,88.1,149.8,943.85,False
+PAT-00566,Catarina Pereira Oliveira,247340089,57,F,1000,34.6,Hypertension,154.9,91.6,104.7,300.51,False
+PAT-00567,Sofia Martins Santos,366408685,53,F,1300,28.5,Cardiovascular,148.8,91.0,102.4,4980.18,False
+PAT-00568,António Ferreira Sousa,174989225,61,M,2600,27.2,Normal,123.2,73.3,108.3,401.68,False
+PAT-00569,Rui Costa Santos,156519787,58,M,1200,25.4,Hypertension,161.6,109.0,117.0,410.38,False
+PAT-00570,Rita Oliveira Jesus,367807936,55,F,1500,26.1,Normal,134.2,89.5,104.5,403.1,False
+PAT-00571,José Sousa Jesus,130023373,44,M,1000,33.3,Hypertension,133.4,83.0,108.8,1123.62,False
+PAT-00572,Sofia Martins Ferreira,146820030,81,F,2600,26.3,Hypertension,175.1,108.1,96.5,1107.9,False
+PAT-00573,Inês Ferreira Rodrigues,193355616,37,F,1700,24.5,Cardiovascular,141.1,86.9,97.9,5722.48,False
+PAT-00574,Sofia Rodrigues Costa,378832681,61,F,2700,23.8,Hypertension,165.7,106.4,109.2,481.89,False
+PAT-00575,Rita Sousa Silva,146616695,49,F,2700,23.8,Oncology,121.0,78.5,134.4,11797.99,True
+PAT-00576,Helena Santos Costa,176890013,82,F,1200,20.4,Hypertension,156.0,99.9,103.0,1073.09,False
+PAT-00577,Inês Rodrigues Martins,241948775,40,F,1000,23.0,Normal,139.3,87.8,92.3,188.44,False
+PAT-00578,Teresa Oliveira Sousa,199084532,42,F,1200,34.5,Normal,142.3,86.5,73.4,244.51,False
+PAT-00579,Inês Ferreira Pereira,284622720,38,F,1050,25.4,Type 2 diabetes,107.3,69.5,166.0,2081.79,False
+PAT-00580,Luís Rodrigues Jesus,288163917,59,M,1500,29.9,Oncology,152.4,98.9,129.6,14508.4,True
+PAT-00581,Sofia Pereira Sousa,252166450,32,F,1050,16.8,Type 2 diabetes,125.3,78.7,160.0,2020.5,False
+PAT-00582,Beatriz Ferreira Sousa,212180636,46,F,2800,29.1,Normal,146.8,90.1,115.3,171.72,False
+PAT-00583,Francisco Sousa Sousa,332653544,20,M,1700,25.6,Normal,121.3,81.4,98.1,195.47,False
+PAT-00584,Rui Costa Martins,285364091,58,M,1100,24.1,Hypertension,153.9,93.1,89.3,506.41,False
+PAT-00585,Helena Ferreira Silva,284733498,46,F,2800,27.2,Cardiovascular,157.7,92.6,91.9,1687.91,False
+PAT-00586,Inês Rodrigues Costa,175792400,30,F,2600,24.1,Hypertension,155.8,88.8,92.7,793.98,False
+PAT-00587,João Costa Santos,120939375,71,M,1300,18.0,Normal,133.6,92.2,80.5,270.26,False
+PAT-00588,Luís Costa Rodrigues,188591257,33,M,1050,31.1,Hypertension,159.2,96.9,71.6,420.9,False
+PAT-00589,Francisco Oliveira Rodrigues,126336982,67,M,1200,27.5,Oncology,155.5,91.2,127.7,9139.87,True
+PAT-00590,Miguel Jesus Pereira,132459269,43,M,1700,24.9,Normal,128.7,76.7,94.8,103.53,False
+PAT-00591,Beatriz Pereira Costa,132978729,80,F,2600,22.1,Normal,123.2,93.9,86.4,286.62,False
+PAT-00592,Manuel Oliveira Santos,119816374,66,M,1100,20.2,Normal,141.8,99.1,108.5,217.85,False
+PAT-00593,Luís Jesus Sousa,165277405,38,M,2600,27.4,Cardiovascular,149.5,84.8,107.6,5954.42,False
+PAT-00594,Beatriz Silva Ferreira,288776403,39,F,1200,35.2,Hypertension,147.2,92.9,103.7,310.74,False
+PAT-00595,Manuel Martins Sousa,184617099,64,M,1100,27.3,Oncology,157.3,102.1,104.0,14377.31,True
+PAT-00596,Luís Santos Silva,157500659,50,M,1300,20.5,Normal,144.3,87.3,117.1,217.2,False
+PAT-00597,Helena Pereira Santos,148818512,51,F,1050,27.4,Hypertension,160.1,105.2,70.0,426.0,False
+PAT-00598,Ana Ferreira Rodrigues,165931088,74,F,1300,26.1,Hypertension,171.7,111.1,77.5,448.81,False
+PAT-00599,Teresa Ferreira Rodrigues,132063244,42,F,1200,30.7,Cardiovascular,125.8,83.3,70.0,5269.56,False
+PAT-00600,Maria Silva Silva,269276485,55,F,1200,29.3,Type 2 diabetes,144.3,89.0,157.9,1177.13,False
+PAT-00601,Rui Costa Jesus,244221084,69,M,2600,16.0,Normal,134.1,80.0,100.1,211.61,False
+PAT-00602,Maria Silva Jesus,315118891,67,F,1200,29.0,Type 2 diabetes,119.0,76.8,147.6,1188.06,False
+PAT-00603,Ana Santos Costa,215377443,51,F,1900,22.0,Cardiovascular,142.9,100.0,95.5,5699.33,False
+PAT-00604,Catarina Ferreira Oliveira,249312530,49,F,1900,20.4,Cardiovascular,149.7,99.3,100.8,3009.18,False
+PAT-00605,Catarina Oliveira Pereira,321193504,26,F,1900,25.4,Hypertension,154.2,87.7,70.0,416.29,False
+PAT-00606,Maria Oliveira Jesus,156985926,37,F,1100,28.3,Normal,125.7,84.0,95.6,327.66,False
+PAT-00607,Catarina Jesus Santos,371987281,59,F,2700,19.6,Normal,118.5,77.1,73.7,138.68,False
+PAT-00608,João Costa Santos,334342216,52,M,1100,29.9,Type 2 diabetes,114.6,76.8,130.2,2054.7,False
+PAT-00609,Mariana Sousa Pereira,229847790,55,F,1200,30.2,Hypertension,166.0,104.4,72.9,892.84,False
+PAT-00610,Luís Rodrigues Santos,365727575,71,M,2700,26.5,Oncology,130.3,75.2,96.4,8911.55,True
+PAT-00611,Teresa Ferreira Jesus,172269355,35,F,1200,22.5,Hypertension,152.8,99.1,93.3,320.95,False
+PAT-00612,Catarina Santos Martins,392190511,50,F,1900,22.1,Hypertension,142.6,88.2,74.8,455.71,False
+PAT-00613,Ana Costa Sousa,293593826,57,F,1000,31.6,Normal,135.4,85.9,139.3,440.1,False
+PAT-00614,Helena Jesus Oliveira,116310251,43,F,1700,20.0,Normal,124.8,73.5,87.2,124.62,False
+PAT-00615,Luís Pereira Sousa,167884860,77,M,2700,31.9,Hypertension,172.4,104.6,93.8,1164.09,False
+PAT-00616,Beatriz Martins Pereira,335008811,69,F,1900,25.5,Hypertension,146.3,89.2,89.1,1116.52,False
+PAT-00617,Rita Ferreira Martins,265404785,59,F,1700,25.9,Cardiovascular,158.2,97.8,91.0,5451.52,False
+PAT-00618,João Santos Pereira,183604645,83,M,2700,19.3,Cardiovascular,162.2,97.7,102.9,5282.91,False
+PAT-00619,Francisco Martins Pereira,266815137,30,M,1200,25.6,Hypertension,146.7,87.6,94.2,1161.53,False
+PAT-00620,João Pereira Oliveira,334575576,54,M,1300,29.4,Cardiovascular,149.8,91.6,103.5,5896.21,False
+PAT-00621,Mariana Rodrigues Ferreira,230389173,60,F,1000,20.7,Normal,127.8,74.0,99.3,136.19,False
+PAT-00622,Catarina Rodrigues Martins,176994753,39,F,1900,28.8,Cardiovascular,150.4,95.5,70.0,5000.21,False
+PAT-00623,Mariana Jesus Ferreira,192204202,59,F,1900,26.7,Cardiovascular,158.1,102.1,96.4,2732.58,False
+PAT-00624,Miguel Silva Santos,137163602,36,M,2600,23.4,Normal,137.4,89.6,76.9,382.32,False
+PAT-00625,Teresa Oliveira Rodrigues,321238465,65,F,2600,30.7,Normal,138.7,91.7,89.2,431.54,False
+PAT-00626,Pedro Rodrigues Ferreira,368949066,71,M,1050,17.7,Normal,116.0,70.6,70.0,204.19,False
+PAT-00627,Ana Silva Jesus,370082028,58,F,1900,28.0,Normal,147.8,103.6,98.5,252.62,False
+PAT-00628,António Costa Oliveira,293424765,24,M,2600,35.2,Hypertension,148.5,96.0,75.6,581.13,False
+PAT-00629,Ana Oliveira Silva,319747705,39,F,1100,34.1,Normal,144.1,86.0,86.7,144.34,False
+PAT-00630,Ana Santos Jesus,293616586,63,F,1500,28.2,Cardiovascular,157.6,95.6,96.3,6535.76,False
+PAT-00631,Mariana Sousa Oliveira,229799331,54,F,2800,24.9,Normal,149.7,93.7,93.6,137.3,False
+PAT-00632,Sofia Rodrigues Sousa,154770106,18,F,1300,23.5,Normal,115.0,68.6,97.3,173.62,False
+PAT-00633,Luís Silva Pereira,218435745,74,M,2600,24.9,Normal,140.2,88.6,73.9,102.75,False
+PAT-00634,Rui Costa Sousa,283642588,56,M,1500,29.0,Normal,145.0,85.6,92.1,281.49,False
+PAT-00635,Luís Silva Jesus,121196833,41,M,1900,22.8,Type 2 diabetes,119.9,79.2,154.7,1800.91,False
+PAT-00636,Miguel Martins Sousa,278258848,70,M,1700,30.2,Normal,128.5,74.4,99.6,115.43,False
+PAT-00637,Ana Sousa Ferreira,314196221,43,F,1900,38.6,Normal,150.8,104.4,126.5,270.69,False
+PAT-00638,Helena Santos Costa,297292988,43,F,2600,26.0,Normal,133.8,89.9,105.2,151.26,False
+PAT-00639,Rita Silva Silva,252825267,60,F,2700,20.7,Hypertension,167.2,104.0,94.7,396.97,False
+PAT-00640,Teresa Silva Rodrigues,167617517,82,F,1200,20.7,Hypertension,167.5,102.8,99.4,1103.5,False
+PAT-00641,Helena Rodrigues Oliveira,115139245,80,F,2800,30.3,Cardiovascular,162.4,101.1,106.9,6203.15,False
+PAT-00642,Beatriz Rodrigues Costa,167592741,60,F,1700,26.0,Hypertension,143.4,93.7,83.2,380.01,False
+PAT-00643,Luís Santos Rodrigues,169032931,61,M,1700,30.8,Hypertension,149.7,95.8,94.7,1085.73,False
+PAT-00644,Miguel Martins Silva,386893650,67,M,1200,23.9,Hypertension,154.7,102.9,87.6,340.15,False
+PAT-00645,Rita Martins Santos,374706083,34,F,1300,30.6,Cardiovascular,157.5,102.6,110.3,2788.47,False
+PAT-00646,Teresa Costa Oliveira,215054200,64,F,1900,25.6,Hypertension,174.7,111.3,128.9,574.33,False
+PAT-00647,Miguel Costa Costa,231447272,42,M,1300,23.1,Normal,110.1,72.6,89.8,134.68,False
+PAT-00648,Inês Sousa Sousa,281955762,59,F,1200,24.5,Cardiovascular,162.5,100.9,90.7,4952.35,False
+PAT-00649,Ana Martins Silva,229615072,50,F,2700,21.2,Cardiovascular,146.0,90.6,107.5,5218.81,False
+PAT-00650,José Sousa Santos,222619782,62,M,1300,37.6,Hypertension,172.7,106.1,70.0,532.3,False
+PAT-00651,José Ferreira Martins,264179246,56,M,1900,25.9,Type 2 diabetes,124.8,80.0,140.1,806.64,False
+PAT-00652,Beatriz Costa Sousa,371559900,18,F,1000,29.5,Type 2 diabetes,112.7,67.6,167.8,2464.45,False
+PAT-00653,Mariana Martins Silva,211968985,57,F,1000,23.9,Normal,131.5,89.1,106.7,381.02,False
+PAT-00654,António Sousa Jesus,230695185,64,M,2700,21.8,Cardiovascular,155.5,101.1,112.4,5419.83,False
+PAT-00655,Catarina Pereira Santos,245041555,61,F,1050,25.2,Hypertension,139.7,86.2,104.1,356.94,False
+PAT-00656,Tiago Martins Ferreira,185842116,52,M,2600,32.1,Hypertension,172.7,106.7,97.7,601.24,False
+PAT-00657,Mariana Rodrigues Oliveira,166457294,80,F,2700,24.0,Hypertension,160.4,101.1,106.5,623.53,False
+PAT-00658,Rui Santos Ferreira,193525092,59,M,1500,22.5,Type 2 diabetes,128.8,87.0,149.4,1365.22,False
+PAT-00659,Maria Rodrigues Rodrigues,229321071,61,F,2700,27.1,Oncology,127.0,73.4,105.7,4987.89,True
+PAT-00660,Rui Costa Santos,326799493,71,M,1300,28.8,Hypertension,159.6,101.8,105.9,1011.19,False
+PAT-00661,Francisco Silva Rodrigues,347644908,60,M,2800,35.4,Hypertension,154.2,97.8,110.2,922.43,False
+PAT-00662,Catarina Jesus Pereira,340574223,40,F,1100,28.0,Oncology,134.4,84.7,101.1,8371.64,True
+PAT-00663,José Silva Oliveira,132870540,18,M,1300,29.5,Normal,117.4,82.8,88.1,123.27,False
+PAT-00664,Francisco Martins Martins,354482997,46,M,1300,29.9,Hypertension,139.6,85.2,103.0,725.82,False
+PAT-00665,Manuel Ferreira Costa,380824442,66,M,2600,21.4,Type 2 diabetes,138.8,91.1,177.3,2471.64,False
+PAT-00666,Inês Silva Jesus,214476646,48,F,1000,22.1,Cardiovascular,132.8,79.8,83.5,2495.82,False
+PAT-00667,Rita Costa Pereira,184376665,67,F,2700,21.6,Normal,134.3,92.1,114.7,116.21,False
+PAT-00668,Teresa Silva Oliveira,224936182,56,F,1000,20.7,Type 2 diabetes,150.3,92.9,125.0,1851.65,False
+PAT-00669,Tiago Sousa Ferreira,385996331,75,M,1200,30.4,Cardiovascular,141.8,86.2,103.2,6218.77,False
+PAT-00670,Pedro Santos Santos,388561144,49,M,1700,27.7,Hypertension,152.9,90.2,95.0,574.69,False
+PAT-00671,José Jesus Rodrigues,256597698,61,M,1050,26.7,Normal,134.0,81.5,77.3,121.43,False
+PAT-00672,Beatriz Ferreira Santos,232893024,62,F,1500,16.5,Hypertension,157.7,100.5,80.3,1188.63,False
+PAT-00673,Sofia Santos Santos,254484248,78,F,2800,38.1,Normal,147.2,88.5,108.1,404.2,False
+PAT-00674,Catarina Santos Silva,151106738,27,F,2700,22.4,Normal,112.9,74.9,126.4,346.12,False
+PAT-00675,Mariana Ferreira Oliveira,237994474,47,F,1000,38.1,Hypertension,159.6,101.6,73.9,815.2,False
+PAT-00676,Manuel Ferreira Oliveira,163364943,68,M,1700,20.3,Type 2 diabetes,109.4,80.8,169.1,1631.33,False
+PAT-00677,Catarina Oliveira Costa,330201747,79,F,1700,22.7,Hypertension,162.6,93.7,90.4,1026.56,False
+PAT-00678,Mariana Ferreira Ferreira,331490528,58,F,1000,17.7,Type 2 diabetes,130.6,81.0,122.3,1323.35,False
+PAT-00679,Francisco Silva Rodrigues,239080966,49,M,1900,28.1,Type 2 diabetes,130.2,74.8,137.3,1690.21,False
+PAT-00680,Pedro Pereira Pereira,279437076,66,M,1500,21.6,Normal,131.9,85.6,86.1,294.46,False
+PAT-00681,José Rodrigues Martins,357394096,68,M,1900,21.7,Normal,134.5,91.3,88.2,311.46,False
+PAT-00682,Manuel Oliveira Silva,288508317,48,M,1200,20.6,Oncology,130.2,79.1,78.5,12451.86,True
+PAT-00683,Francisco Ferreira Pereira,361776241,59,M,1100,30.3,Cardiovascular,138.3,89.5,70.0,3575.43,False
+PAT-00684,Francisco Pereira Pereira,243128042,73,M,2600,29.9,Cardiovascular,145.6,90.2,104.3,3404.7,False
+PAT-00685,Rita Jesus Silva,160257845,84,F,1900,36.5,Hypertension,158.0,98.1,87.8,804.16,False
+PAT-00686,José Jesus Costa,114458679,66,M,1050,23.3,Cardiovascular,147.0,97.0,86.9,4072.06,False
+PAT-00687,António Costa Santos,112964224,55,M,1100,27.4,Hypertension,160.3,95.1,89.9,473.95,False
+PAT-00688,Maria Rodrigues Costa,299533996,53,F,1700,20.9,Cardiovascular,156.8,90.0,74.2,5698.43,False
+PAT-00689,Rita Pereira Jesus,236456177,63,F,2700,24.8,Cardiovascular,160.1,106.2,113.5,2746.41,False
+PAT-00690,Beatriz Martins Santos,287442564,52,F,1100,24.0,Normal,129.3,87.1,77.9,354.07,False
+PAT-00691,João Martins Jesus,143453889,57,M,1100,28.6,Normal,137.5,82.6,94.5,282.61,False
+PAT-00692,Helena Pereira Silva,332016408,37,F,2600,31.6,Normal,131.2,88.8,108.0,107.63,False
+PAT-00693,Rui Rodrigues Ferreira,262903785,75,M,1900,31.4,Type 2 diabetes,135.4,87.0,142.9,2324.9,False
+PAT-00694,Miguel Sousa Ferreira,323876716,36,M,2700,22.6,Type 2 diabetes,149.9,95.4,154.8,2439.69,False
+PAT-00695,Rita Martins Costa,289797405,47,F,2600,31.5,Cardiovascular,161.4,104.6,107.1,4927.41,False
+PAT-00696,Catarina Ferreira Sousa,260671363,56,F,2800,26.1,Normal,141.9,96.4,98.6,415.09,False
+PAT-00697,Helena Sousa Martins,297672453,86,F,1100,24.8,Hypertension,172.6,102.4,84.1,755.36,False
+PAT-00698,Maria Pereira Oliveira,159924638,47,F,1100,23.2,Normal,111.8,77.6,80.2,326.52,False
+PAT-00699,Helena Costa Costa,132971522,43,F,1100,23.8,Hypertension,149.4,94.4,89.0,416.95,False
+PAT-00700,Manuel Martins Pereira,215517341,45,M,1000,36.0,Normal,132.3,82.5,86.9,265.02,False
+PAT-00701,João Sousa Santos,349081656,81,M,2600,27.8,Cardiovascular,139.9,87.9,88.6,2408.99,False
+PAT-00702,João Silva Oliveira,157613411,18,M,1900,27.2,Normal,107.9,68.8,93.5,315.8,False
+PAT-00703,Manuel Jesus Costa,292250722,38,M,1000,25.1,Hypertension,153.7,90.6,87.4,683.27,False
+PAT-00704,Inês Silva Oliveira,345877770,88,F,1100,40.9,Type 2 diabetes,135.8,86.3,154.2,1478.84,False
+PAT-00705,Manuel Sousa Ferreira,338594919,63,M,1100,33.3,Oncology,170.6,103.8,103.2,13902.45,True
+PAT-00706,Beatriz Silva Santos,261737799,36,F,1300,23.1,Oncology,138.2,92.4,85.4,8424.67,True
+PAT-00707,Sofia Silva Martins,122404094,53,F,1500,25.0,Cardiovascular,142.3,84.5,108.8,1690.36,False
+PAT-00708,Helena Sousa Ferreira,144687115,55,F,1200,25.3,Normal,108.6,80.6,83.1,196.2,False
+PAT-00709,Miguel Costa Silva,240833955,68,M,2800,27.0,Type 2 diabetes,151.5,94.6,147.6,1274.32,False
+PAT-00710,João Costa Oliveira,314649095,83,M,1100,23.2,Hypertension,147.1,92.1,98.7,457.04,False
+PAT-00711,Maria Sousa Martins,160670954,60,F,1700,28.5,Hypertension,153.6,96.6,70.0,895.63,False
+PAT-00712,Mariana Sousa Sousa,312789503,45,F,1300,34.2,Cardiovascular,153.7,106.4,97.3,6069.44,False
+PAT-00713,Helena Ferreira Jesus,327807928,67,F,1300,20.8,Type 2 diabetes,132.6,83.3,154.0,1412.48,False
+PAT-00714,Mariana Martins Jesus,184667455,43,F,2700,21.5,Hypertension,138.6,80.1,96.8,1051.46,False
+PAT-00715,Ana Oliveira Santos,213712737,37,F,2800,24.1,Hypertension,150.6,98.9,108.1,690.4,False
+PAT-00716,António Oliveira Jesus,163486408,26,M,1000,24.3,Hypertension,139.1,89.5,110.9,346.57,False
+PAT-00717,Teresa Pereira Pereira,328709366,29,F,1500,37.7,Normal,136.1,84.5,95.5,322.3,False
+PAT-00718,Luís Sousa Sousa,213102383,40,M,1050,31.5,Cardiovascular,149.2,99.9,70.0,4872.76,False
+PAT-00719,Sofia Santos Martins,157258134,35,F,1300,31.2,Normal,127.4,75.2,105.6,253.55,False
+PAT-00720,Inês Santos Silva,115184083,59,F,1700,25.1,Hypertension,153.2,105.5,108.4,926.41,False
+PAT-00721,Beatriz Pereira Costa,285700409,35,F,1300,25.0,Oncology,137.3,86.7,122.2,5038.04,True
+PAT-00722,António Martins Rodrigues,188489927,18,M,1200,20.3,Hypertension,135.8,79.7,100.7,980.44,False
+PAT-00723,Francisco Santos Costa,163404983,37,M,1200,30.3,Normal,114.8,77.3,92.2,373.75,False
+PAT-00724,Catarina Pereira Ferreira,186170273,46,F,1200,28.7,Oncology,142.5,87.3,104.3,8696.46,True
+PAT-00725,Luís Pereira Oliveira,264684951,44,M,1200,33.2,Hypertension,151.4,92.6,112.7,888.12,False
+PAT-00726,José Pereira Martins,347007955,78,M,1300,25.3,Hypertension,175.1,117.2,84.0,974.49,False
+PAT-00727,Francisco Oliveira Rodrigues,266353738,44,M,1900,25.6,Normal,126.2,86.6,89.6,251.78,False
+PAT-00728,José Santos Jesus,196641991,68,M,1050,27.1,Normal,130.3,81.6,113.1,278.25,False
+PAT-00729,João Costa Ferreira,293763751,54,M,1000,30.9,Type 2 diabetes,145.6,94.6,146.8,2520.99,False
+PAT-00730,Sofia Silva Sousa,337858906,53,F,1500,20.2,Type 2 diabetes,134.2,89.9,161.7,2661.3,False
+PAT-00731,Francisco Pereira Martins,170918438,41,M,1900,30.0,Hypertension,155.0,100.2,90.5,726.09,False
+PAT-00732,João Costa Oliveira,182669807,53,M,1100,26.2,Oncology,131.6,83.2,103.9,13181.06,True
+PAT-00733,Luís Santos Sousa,179559956,42,M,1100,21.7,Normal,113.5,71.4,88.2,286.48,False
+PAT-00734,António Rodrigues Martins,314799204,57,M,1700,18.1,Normal,124.2,78.2,72.3,110.97,False
+PAT-00735,José Santos Ferreira,183338731,50,M,1300,25.7,Normal,128.7,79.5,90.8,125.57,False
+PAT-00736,Teresa Sousa Sousa,273188350,39,F,2600,34.1,Hypertension,144.9,87.5,114.7,766.73,False
+PAT-00737,António Rodrigues Santos,358509863,70,M,1050,35.6,Type 2 diabetes,146.3,94.5,152.1,1833.51,False
+PAT-00738,Miguel Oliveira Martins,292208163,61,M,1050,28.0,Cardiovascular,162.2,107.0,110.4,6452.46,False
+PAT-00739,Pedro Sousa Oliveira,245853772,47,M,1700,37.5,Normal,146.5,90.8,87.7,240.23,False
+PAT-00740,José Costa Santos,157196404,56,M,1300,26.1,Type 2 diabetes,140.0,91.7,146.0,1810.6,False
+PAT-00741,Manuel Costa Jesus,115399165,53,M,2600,31.2,Hypertension,158.6,96.4,86.3,673.75,False
+PAT-00742,Luís Martins Santos,130375647,40,M,1500,24.3,Normal,126.0,74.4,105.9,339.36,False
+PAT-00743,Beatriz Rodrigues Pereira,371816162,55,F,1200,24.0,Hypertension,170.1,98.5,91.4,816.17,False
+PAT-00744,João Silva Sousa,144317440,44,M,1050,23.3,Normal,118.3,74.6,118.5,249.93,False
+PAT-00745,Catarina Ferreira Ferreira,189867649,39,F,1050,18.2,Type 2 diabetes,116.6,67.0,123.0,1934.0,False
+PAT-00746,Maria Sousa Santos,312842294,28,F,2600,33.2,Hypertension,144.9,90.6,70.0,984.28,False
+PAT-00747,Miguel Ferreira Pereira,242416095,48,M,1100,23.4,Cardiovascular,158.5,107.3,70.0,6450.65,False
+PAT-00748,António Jesus Silva,219046931,63,M,1500,22.8,Hypertension,148.7,94.5,76.5,475.0,False
+PAT-00749,Inês Ferreira Ferreira,322896001,43,F,2600,21.3,Type 2 diabetes,126.9,81.2,170.4,1707.8,False
+PAT-00750,Ana Sousa Pereira,252156199,88,F,2700,25.4,Hypertension,168.8,101.1,75.2,999.87,False
+PAT-00751,Francisco Pereira Sousa,332081984,68,M,1100,36.1,Hypertension,184.3,116.5,101.6,820.3,False
+PAT-00752,José Pereira Pereira,246213047,75,M,1050,38.4,Normal,151.1,88.3,76.6,122.31,False
+PAT-00753,José Silva Rodrigues,332138124,67,M,2600,19.5,Type 2 diabetes,151.2,104.6,141.2,1515.32,False
+PAT-00754,João Ferreira Ferreira,349986385,84,M,1900,24.7,Hypertension,148.0,93.8,96.4,364.95,False
+PAT-00755,Sofia Martins Costa,257275333,41,F,1200,21.8,Normal,134.7,85.1,101.0,208.29,False
+PAT-00756,Rui Pereira Sousa,180850690,18,M,1700,31.4,Type 2 diabetes,128.5,80.1,157.7,3144.91,False
+PAT-00757,João Costa Martins,368851448,47,M,1100,27.7,Normal,130.8,87.9,73.1,385.71,False
+PAT-00758,Mariana Sousa Pereira,118379790,63,F,1900,23.5,Normal,130.5,76.6,88.1,255.55,False
+PAT-00759,João Martins Silva,194400405,56,M,2600,26.7,Hypertension,168.8,105.6,109.2,541.29,False
+PAT-00760,Miguel Martins Jesus,294824654,58,M,1200,24.1,Normal,126.8,82.4,104.2,267.31,False
+PAT-00761,Beatriz Jesus Santos,352221975,75,F,1500,35.2,Hypertension,163.9,93.9,73.5,1000.13,False
+PAT-00762,Francisco Santos Martins,182338443,60,M,1200,29.0,Normal,112.2,82.7,103.9,110.56,False
+PAT-00763,Miguel Jesus Martins,399944932,67,M,1000,29.7,Normal,126.1,86.5,80.2,378.46,False
+PAT-00764,José Silva Sousa,363216904,39,M,1050,16.3,Oncology,124.0,80.8,100.1,10415.01,True
+PAT-00765,Beatriz Silva Sousa,384409027,36,F,2800,26.0,Normal,136.3,87.0,108.8,249.87,False
+PAT-00766,Rui Oliveira Martins,236262837,80,M,1500,38.3,Normal,126.5,78.2,87.2,396.89,False
+PAT-00767,João Silva Ferreira,180557697,56,M,1050,33.4,Type 2 diabetes,125.9,78.9,160.6,2895.88,False
+PAT-00768,Pedro Santos Silva,281754586,44,M,1000,18.9,Hypertension,133.4,78.9,81.2,502.04,False
+PAT-00769,Pedro Martins Martins,131718110,44,M,1200,24.9,Hypertension,150.2,91.0,104.2,844.37,False
+PAT-00770,Rita Jesus Rodrigues,347664332,44,F,2800,21.2,Hypertension,150.5,90.7,96.8,666.92,False
+PAT-00771,Luís Jesus Pereira,272755299,43,M,1300,35.8,Cardiovascular,150.0,91.9,110.6,4474.97,False
+PAT-00772,Maria Martins Ferreira,298198893,33,F,2800,27.5,Normal,135.9,93.4,101.5,337.15,False
+PAT-00773,Helena Oliveira Jesus,235524068,30,F,1500,22.9,Normal,133.3,87.6,130.0,161.59,False
+PAT-00774,Maria Rodrigues Oliveira,381776151,51,F,2600,26.5,Cardiovascular,157.5,100.1,93.3,5562.75,False
+PAT-00775,Francisco Ferreira Sousa,280793199,45,M,2600,16.5,Oncology,135.9,89.4,107.7,7377.65,True
+PAT-00776,Inês Jesus Oliveira,356507024,72,F,1000,21.6,Hypertension,154.5,95.3,74.6,1198.67,False
+PAT-00777,Maria Jesus Santos,320633748,59,F,1000,26.5,Cardiovascular,148.0,98.2,98.6,6251.74,False
+PAT-00778,António Jesus Jesus,335902705,58,M,2800,30.6,Type 2 diabetes,133.4,81.4,137.5,3163.05,False
+PAT-00779,Helena Oliveira Martins,280840299,42,F,2800,18.6,Cardiovascular,146.2,98.0,111.6,3569.48,False
+PAT-00780,Inês Martins Costa,394140502,52,F,1050,24.6,Normal,134.4,86.1,77.9,376.38,False
+PAT-00781,João Oliveira Oliveira,132331634,60,M,1900,31.6,Normal,141.0,87.1,91.8,280.77,False
+PAT-00782,Sofia Pereira Costa,183425022,65,F,2800,20.3,Normal,152.4,86.6,99.8,155.81,False
+PAT-00783,João Santos Martins,275160737,52,M,2800,27.4,Cardiovascular,145.4,90.6,104.4,2448.03,False
+PAT-00784,Inês Rodrigues Costa,356002617,71,F,1200,26.6,Type 2 diabetes,138.4,93.6,167.5,1964.0,False
+PAT-00785,Mariana Oliveira Oliveira,133514141,54,F,2600,35.8,Type 2 diabetes,130.2,86.1,159.7,2446.8,False
+PAT-00786,Tiago Sousa Ferreira,271470665,67,M,1900,25.2,Normal,120.0,67.9,95.3,202.94,False
+PAT-00787,Catarina Sousa Silva,170019469,46,F,2800,25.5,Cardiovascular,137.8,93.0,96.5,5719.66,False
+PAT-00788,Miguel Oliveira Sousa,273602257,25,M,1050,30.7,Hypertension,152.6,90.6,102.5,827.02,False
+PAT-00789,Mariana Jesus Santos,129496914,58,F,1700,20.7,Oncology,133.3,78.1,94.3,9408.44,True
+PAT-00790,Ana Sousa Costa,325959460,66,F,1000,25.3,Cardiovascular,165.3,100.9,118.5,4796.21,False
+PAT-00791,Luís Santos Ferreira,373504004,63,M,1200,24.2,Hypertension,158.6,106.4,81.5,423.43,False
+PAT-00792,Tiago Pereira Costa,314398761,61,M,1000,25.7,Normal,129.5,79.8,97.9,385.7,False
+PAT-00793,José Ferreira Santos,341589990,48,M,1300,30.7,Oncology,138.6,90.8,93.1,10259.25,True
+PAT-00794,Rui Sousa Santos,117765313,41,M,2600,29.1,Normal,138.8,92.0,81.0,403.9,False
+PAT-00795,José Costa Pereira,239741256,63,M,1900,23.0,Type 2 diabetes,123.8,82.8,152.5,2202.78,False
+PAT-00796,Miguel Ferreira Silva,180254334,61,M,1200,27.0,Hypertension,154.8,92.5,107.7,1142.11,False
+PAT-00797,José Costa Santos,224266275,45,M,1300,34.4,Hypertension,158.0,91.2,89.3,932.4,False
+PAT-00798,Tiago Silva Silva,272521972,72,M,1300,22.7,Hypertension,152.5,99.9,70.0,954.0,False
+PAT-00799,Mariana Costa Ferreira,365190274,40,F,2600,27.0,Hypertension,150.3,103.4,78.5,393.9,False
+PAT-00800,Sofia Silva Rodrigues,162054569,45,F,1100,25.4,Type 2 diabetes,138.7,84.7,144.1,2357.62,False
+PAT-00801,Inês Santos Pereira,348573047,80,F,1050,26.0,Normal,124.8,78.4,112.4,251.7,False
+PAT-00802,Rui Ferreira Jesus,281946239,68,M,1500,19.6,Normal,131.4,84.8,100.6,339.55,False
+PAT-00803,Sofia Santos Ferreira,364204890,48,F,2700,33.9,Cardiovascular,147.6,100.9,115.5,5270.92,False
+PAT-00804,Inês Santos Costa,292097612,59,F,1500,22.9,Hypertension,147.7,88.1,89.0,871.77,False
+PAT-00805,José Martins Oliveira,292719424,56,M,1100,31.6,Normal,117.5,79.1,114.4,417.04,False
+PAT-00806,Francisco Oliveira Santos,391192779,18,M,1000,23.5,Normal,113.8,70.6,98.0,277.25,False
+PAT-00807,Rita Santos Martins,328093503,39,F,2800,23.5,Normal,130.4,86.7,109.0,353.6,False
+PAT-00808,Rui Martins Oliveira,150848956,53,M,2600,32.7,Normal,136.0,85.0,95.3,340.22,False
+PAT-00809,Inês Jesus Ferreira,258969101,48,F,1050,31.5,Normal,141.2,96.7,102.3,366.83,False
+PAT-00810,Beatriz Martins Sousa,182730832,58,F,1000,27.3,Normal,130.7,75.2,113.7,193.66,False
+PAT-00811,Rui Silva Jesus,244274175,72,M,1050,30.2,Cardiovascular,163.1,105.1,78.5,6657.67,False
+PAT-00812,Manuel Costa Sousa,390380994,49,M,1300,25.0,Type 2 diabetes,144.4,92.9,141.1,1427.45,False
+PAT-00813,Catarina Sousa Pereira,368091070,37,F,2600,26.3,Type 2 diabetes,137.1,92.1,129.1,1990.41,False
+PAT-00814,Inês Pereira Pereira,154331285,59,F,1050,23.4,Hypertension,165.1,102.0,77.0,1071.3,False
+PAT-00815,Pedro Oliveira Martins,243949811,49,M,2700,31.0,Normal,133.9,90.9,102.8,180.42,False
+PAT-00816,Beatriz Pereira Santos,245645527,52,F,1000,23.2,Type 2 diabetes,127.6,97.8,148.9,944.98,False
+PAT-00817,Mariana Jesus Jesus,230929519,49,F,2600,34.4,Cardiovascular,143.8,100.0,109.1,3958.39,False
+PAT-00818,Sofia Oliveira Martins,155779920,88,F,1200,24.9,Hypertension,167.1,110.2,82.3,985.08,False
+PAT-00819,Catarina Silva Costa,145467299,18,F,2800,26.4,Normal,124.1,87.2,99.2,209.35,False
+PAT-00820,João Santos Rodrigues,256887422,48,M,1500,30.2,Normal,132.1,76.3,70.0,123.18,False
+PAT-00821,Manuel Pereira Costa,296227439,54,M,1100,26.4,Hypertension,152.1,94.3,106.3,1136.24,False
+PAT-00822,Catarina Oliveira Silva,323821990,42,F,1100,24.9,Hypertension,156.7,107.8,101.2,887.0,False
+PAT-00823,Miguel Sousa Jesus,241632774,68,M,2700,26.2,Normal,137.8,81.4,108.0,315.98,False
+PAT-00824,Rita Oliveira Jesus,222972647,67,F,1300,30.9,Type 2 diabetes,131.6,84.5,140.1,2366.9,False
+PAT-00825,Beatriz Santos Jesus,224927840,53,F,1200,23.4,Hypertension,171.6,111.9,84.1,463.93,False
+PAT-00826,José Sousa Pereira,395499310,50,M,2600,25.7,Hypertension,142.1,93.7,91.0,623.97,False
+PAT-00827,Teresa Costa Oliveira,244121178,52,F,1500,26.4,Normal,132.0,86.8,108.2,276.87,False
+PAT-00828,António Jesus Silva,254244597,52,M,1900,30.7,Cardiovascular,149.3,104.0,96.2,6369.58,False
+PAT-00829,Beatriz Pereira Costa,148851169,53,F,1300,25.8,Cardiovascular,146.0,95.7,74.1,3909.47,False
+PAT-00830,António Rodrigues Pereira,359067976,51,M,1000,36.4,Oncology,131.3,81.2,115.4,12934.64,True
+PAT-00831,Ana Santos Rodrigues,346844197,58,F,1000,25.6,Normal,139.3,96.2,94.0,428.4,False
+PAT-00832,Sofia Pereira Rodrigues,188758942,66,F,1000,25.2,Hypertension,163.6,102.6,104.8,1173.35,False
+PAT-00833,José Pereira Ferreira,213259999,34,M,1700,25.5,Cardiovascular,139.5,83.9,80.1,6734.49,False
+PAT-00834,Inês Rodrigues Costa,182522982,37,F,1500,20.8,Cardiovascular,155.3,94.7,70.0,5152.73,False
+PAT-00835,Helena Martins Silva,373637068,26,F,2600,21.8,Normal,127.0,81.5,95.7,430.48,False
+PAT-00836,Inês Ferreira Costa,114109590,68,F,2700,23.9,Type 2 diabetes,144.3,93.1,157.1,2926.75,False
+PAT-00837,Sofia Sousa Ferreira,159953504,58,F,1050,32.3,Hypertension,164.1,104.5,83.6,551.28,False
+PAT-00838,Mariana Santos Sousa,158864708,62,F,2800,26.2,Normal,141.4,95.5,100.4,302.38,False
+PAT-00839,Rui Martins Pereira,298824400,31,M,2800,24.1,Normal,116.4,73.8,96.6,148.84,False
+PAT-00840,Maria Martins Oliveira,145396929,83,F,1700,32.8,Normal,131.8,78.8,70.0,449.61,False
+PAT-00841,Rui Rodrigues Costa,246041159,44,M,1500,34.8,Normal,130.5,83.1,129.9,350.27,False
+PAT-00842,Helena Jesus Oliveira,398131874,57,F,1050,33.0,Hypertension,149.8,95.1,76.3,1045.18,False
+PAT-00843,Maria Silva Oliveira,331739552,68,F,1050,22.6,Cardiovascular,142.7,89.4,90.9,6317.96,False
+PAT-00844,Luís Silva Santos,136888153,38,M,1000,24.1,Oncology,140.5,87.6,94.5,14476.23,True
+PAT-00845,Miguel Martins Silva,151868956,45,M,1900,36.5,Normal,120.3,70.7,107.0,326.62,False
+PAT-00846,Mariana Silva Martins,199325836,57,F,1300,27.5,Type 2 diabetes,115.2,75.0,132.6,2847.03,False
+PAT-00847,Tiago Jesus Costa,389371521,88,M,1100,25.1,Normal,135.3,89.8,109.5,299.85,False
+PAT-00848,Catarina Sousa Rodrigues,296714511,59,F,1050,29.9,Hypertension,159.2,102.3,97.4,917.59,False
+PAT-00849,Francisco Martins Costa,241626821,80,M,1000,31.5,Oncology,136.5,89.8,89.5,12406.7,True
+PAT-00850,Teresa Costa Jesus,369944182,73,F,1900,23.7,Type 2 diabetes,144.7,94.9,153.7,2783.36,False
+PAT-00851,João Silva Silva,238769612,60,M,1900,27.4,Cardiovascular,160.3,107.6,94.5,2894.82,False
+PAT-00852,Luís Martins Ferreira,194305386,38,M,1700,31.1,Hypertension,161.8,98.5,77.5,1119.95,False
+PAT-00853,Ana Jesus Martins,243320261,71,F,1050,21.4,Cardiovascular,152.5,89.8,100.1,5993.02,False
+PAT-00854,Catarina Oliveira Oliveira,354152705,30,F,1000,26.4,Normal,109.3,77.2,70.0,199.88,False
+PAT-00855,João Santos Jesus,188031242,80,M,1050,21.5,Normal,154.6,95.4,94.4,257.05,False
+PAT-00856,José Martins Martins,295792498,57,M,2600,22.0,Hypertension,138.4,88.5,94.2,628.43,False
+PAT-00857,Inês Ferreira Rodrigues,216520912,18,F,2600,23.8,Normal,108.6,69.8,80.9,358.7,False
+PAT-00858,Maria Oliveira Jesus,139687077,49,F,1200,28.7,Hypertension,165.8,103.3,87.6,373.43,False
+PAT-00859,Miguel Martins Silva,155501182,64,M,1000,24.8,Normal,128.5,80.3,76.5,198.35,False
+PAT-00860,Ana Ferreira Ferreira,254762014,50,F,1200,23.4,Type 2 diabetes,125.9,77.5,150.9,1835.81,False
+PAT-00861,Ana Sousa Santos,235268958,65,F,2600,26.6,Type 2 diabetes,129.6,82.6,180.0,1081.52,False
+PAT-00862,Rita Costa Rodrigues,158524912,40,F,1050,21.4,Cardiovascular,135.6,82.0,78.3,3170.7,False
+PAT-00863,Sofia Pereira Rodrigues,246329384,33,F,2600,28.4,Cardiovascular,142.7,91.7,123.3,5490.85,False
+PAT-00864,Sofia Rodrigues Silva,234947557,53,F,1500,32.3,Normal,140.4,91.8,88.3,348.02,False
+PAT-00865,João Martins Rodrigues,227525128,55,M,1050,25.9,Normal,123.7,86.7,86.3,306.64,False
+PAT-00866,Maria Jesus Silva,356761792,48,F,2800,25.4,Cardiovascular,139.2,83.9,88.4,2757.77,False
+PAT-00867,Helena Martins Sousa,132930559,74,F,1500,28.1,Hypertension,159.8,97.4,106.3,346.69,False
+PAT-00868,Helena Pereira Martins,233120402,40,F,1900,18.3,Hypertension,141.7,87.6,88.8,1073.18,False
+PAT-00869,António Oliveira Ferreira,151210629,59,M,1050,29.0,Hypertension,150.3,91.1,79.7,1080.78,False
+PAT-00870,Francisco Jesus Oliveira,365812616,55,M,1300,45.0,Hypertension,166.3,104.5,118.6,685.78,False
+PAT-00871,Maria Pereira Martins,163081003,29,F,1700,25.7,Normal,147.0,92.5,90.8,137.38,False
+PAT-00872,Luís Costa Oliveira,351403126,33,M,1900,25.8,Normal,132.0,85.2,103.6,227.07,False
+PAT-00873,Sofia Costa Rodrigues,169306047,54,F,1000,30.1,Hypertension,160.5,101.3,97.8,795.34,False
+PAT-00874,Tiago Rodrigues Sousa,184353772,86,M,1700,35.4,Hypertension,179.7,120.0,82.0,583.69,False
+PAT-00875,Teresa Silva Pereira,288365474,63,F,2800,31.4,Type 2 diabetes,108.9,75.2,125.1,2696.11,False
+PAT-00876,Inês Silva Santos,332949459,26,F,2600,17.8,Hypertension,131.7,83.4,103.7,1177.4,False
+PAT-00877,Miguel Pereira Santos,176516451,18,M,1100,29.1,Cardiovascular,139.0,85.9,117.7,6303.37,False
+PAT-00878,António Ferreira Santos,156491253,66,M,2800,41.8,Cardiovascular,150.1,92.2,121.4,3049.99,False
+PAT-00879,Ana Martins Jesus,312341544,52,F,1900,29.4,Normal,123.6,78.6,92.4,339.01,False
+PAT-00880,Beatriz Rodrigues Sousa,185227310,72,F,1000,21.4,Cardiovascular,138.5,84.8,112.5,5160.57,False
+PAT-00881,Tiago Silva Sousa,126498620,40,M,1050,27.7,Hypertension,151.2,95.9,126.2,975.82,False
+PAT-00882,Maria Silva Oliveira,345402128,60,F,2800,20.9,Hypertension,165.6,100.1,89.3,1088.69,False
+PAT-00883,Rita Silva Ferreira,179901895,68,F,1100,32.8,Normal,130.9,83.0,109.2,351.84,False
+PAT-00884,António Pereira Sousa,367528539,47,M,1050,22.2,Type 2 diabetes,128.0,85.9,136.8,2212.16,False
+PAT-00885,José Ferreira Santos,376518641,47,M,1300,26.7,Type 2 diabetes,130.5,82.9,121.7,2690.98,False
+PAT-00886,Manuel Santos Costa,336194323,54,M,1500,22.5,Normal,133.6,94.2,101.4,434.82,False
+PAT-00887,Francisco Oliveira Jesus,128361138,63,M,1700,23.8,Normal,121.7,78.3,110.9,345.45,False
+PAT-00888,Luís Santos Pereira,143313183,54,M,1900,34.4,Normal,144.0,94.9,101.1,106.15,False
+PAT-00889,José Jesus Pereira,225695236,70,M,2800,26.8,Cardiovascular,147.0,101.7,103.7,3607.13,False
+PAT-00890,Ana Martins Oliveira,277205199,47,F,2600,23.8,Hypertension,148.7,94.0,96.2,667.33,False
+PAT-00891,João Rodrigues Ferreira,386633581,33,M,1000,21.4,Normal,130.6,79.9,72.6,326.7,False
+PAT-00892,Teresa Jesus Pereira,257117750,86,F,1000,18.8,Oncology,129.2,81.4,85.1,6205.39,True
+PAT-00893,Luís Costa Rodrigues,324560345,44,M,1000,21.0,Cardiovascular,165.5,93.3,124.8,5041.43,False
+PAT-00894,João Pereira Santos,322974028,45,M,1300,26.8,Hypertension,156.5,91.0,108.8,757.56,False
+PAT-00895,Catarina Silva Costa,362584204,53,F,1200,31.4,Hypertension,156.8,88.6,97.3,854.57,False
+PAT-00896,Rita Sousa Ferreira,190360959,55,F,2800,23.8,Hypertension,152.6,101.8,109.7,440.35,False
+PAT-00897,João Martins Silva,161161477,48,M,1300,34.9,Oncology,156.5,98.3,98.1,9890.49,True
+PAT-00898,João Sousa Jesus,152259852,54,M,1000,23.1,Hypertension,155.0,84.1,91.0,369.01,False
+PAT-00899,Miguel Jesus Silva,293842181,53,M,2700,25.2,Hypertension,170.3,113.6,106.2,564.01,False
+PAT-00900,Maria Pereira Silva,167352862,57,F,1100,21.7,Normal,121.0,75.3,120.4,121.61,False
+PAT-00901,Tiago Silva Costa,332315205,18,M,2800,31.4,Hypertension,125.0,85.9,117.3,966.24,False
+PAT-00902,Tiago Martins Ferreira,132252947,84,M,2600,38.4,Type 2 diabetes,154.9,103.2,154.3,2575.66,False
+PAT-00903,Francisco Costa Martins,364562527,52,M,2700,19.2,Hypertension,152.5,99.0,90.5,880.57,False
+PAT-00904,Beatriz Ferreira Martins,397704866,63,F,2700,24.7,Type 2 diabetes,124.4,75.4,174.9,1977.58,False
+PAT-00905,Teresa Oliveira Silva,118328467,32,F,1050,33.0,Hypertension,152.0,97.0,83.1,1002.45,False
+PAT-00906,Mariana Jesus Sousa,157492514,46,F,1700,20.3,Cardiovascular,163.6,94.3,99.2,1767.67,False
+PAT-00907,Beatriz Santos Costa,227983208,43,F,1300,29.1,Normal,134.6,94.2,124.1,194.3,False
+PAT-00908,Tiago Sousa Silva,247778472,78,M,1700,32.8,Cardiovascular,167.5,104.5,87.9,3020.25,False
+PAT-00909,António Oliveira Silva,171153390,45,M,2600,26.7,Normal,135.6,87.7,82.4,339.3,False
+PAT-00910,Tiago Santos Rodrigues,224568201,66,M,1500,29.1,Normal,131.8,80.3,99.9,211.92,False
+PAT-00911,Helena Rodrigues Martins,157478557,44,F,1200,36.1,Normal,142.0,85.8,89.7,223.56,False
+PAT-00912,Sofia Jesus Oliveira,185863332,47,F,2800,37.4,Oncology,140.5,89.4,95.8,7655.83,True
+PAT-00913,Maria Pereira Pereira,373395584,50,F,1900,26.0,Normal,141.5,95.4,94.9,126.98,False
+PAT-00914,Mariana Ferreira Oliveira,317986032,75,F,2700,23.9,Type 2 diabetes,154.9,101.5,142.5,3035.69,False
+PAT-00915,Beatriz Pereira Rodrigues,136977804,24,F,1100,22.3,Type 2 diabetes,116.3,83.0,169.1,1667.09,False
+PAT-00916,Inês Martins Ferreira,346939618,33,F,2700,31.4,Cardiovascular,153.2,100.2,132.9,6005.09,False
+PAT-00917,Tiago Pereira Silva,247058607,23,M,1200,20.6,Normal,134.1,85.8,75.5,324.76,False
+PAT-00918,Manuel Jesus Jesus,235427989,37,M,1500,25.1,Type 2 diabetes,126.3,76.2,153.6,2837.25,False
+PAT-00919,António Rodrigues Costa,177786630,41,M,2700,26.8,Cardiovascular,150.4,92.0,92.7,6139.83,False
+PAT-00920,Ana Oliveira Rodrigues,281886916,28,F,1200,24.0,Normal,125.3,86.5,97.7,305.16,False
+PAT-00921,Rui Jesus Silva,239956795,42,M,1100,27.7,Oncology,131.4,85.1,110.8,6789.99,True
+PAT-00922,Sofia Oliveira Santos,216906574,22,F,2800,41.7,Hypertension,169.5,105.9,110.3,522.95,False
+PAT-00923,Mariana Silva Santos,124132279,38,F,2800,25.7,Cardiovascular,150.9,89.6,93.6,6056.94,False
+PAT-00924,Maria Ferreira Martins,195559069,73,F,1200,24.3,Normal,139.1,84.2,99.7,115.48,False
+PAT-00925,Manuel Sousa Ferreira,238067167,60,M,1200,31.6,Hypertension,150.3,105.2,111.3,1160.86,False
+PAT-00926,João Pereira Martins,127329630,57,M,1100,27.5,Cardiovascular,149.2,92.5,116.6,1687.87,False
+PAT-00927,Manuel Silva Jesus,197478921,38,M,1000,34.1,Normal,100.9,79.6,99.7,176.15,False
+PAT-00928,Mariana Pereira Martins,267851960,29,F,1700,27.1,Oncology,143.1,93.0,105.4,6515.81,True
+PAT-00929,Teresa Pereira Costa,347298334,36,F,1100,25.2,Hypertension,138.3,89.5,114.3,351.52,False
+PAT-00930,Maria Pereira Costa,278991012,53,F,2700,19.1,Hypertension,145.5,98.1,86.0,676.54,False
+PAT-00931,Manuel Sousa Sousa,176401238,68,M,1050,19.7,Cardiovascular,149.4,93.8,70.5,2334.82,False
+PAT-00932,António Pereira Santos,357520165,68,M,1700,18.9,Type 2 diabetes,134.8,87.3,163.5,1057.25,False
+PAT-00933,Luís Santos Pereira,268882109,64,M,1500,28.2,Cardiovascular,169.6,109.9,93.2,3122.45,False
+PAT-00934,Mariana Rodrigues Costa,325235390,42,F,1700,20.6,Hypertension,150.1,97.5,104.3,1020.66,False
+PAT-00935,Sofia Martins Rodrigues,154321462,54,F,1050,33.0,Hypertension,157.1,102.3,114.5,690.68,False
+PAT-00936,Miguel Oliveira Jesus,229742083,49,M,1500,26.5,Hypertension,154.0,92.5,82.7,358.94,False
+PAT-00937,Inês Jesus Ferreira,128014122,51,F,1700,25.2,Hypertension,156.8,100.8,74.5,558.73,False
+PAT-00938,António Costa Costa,233833205,87,M,1200,22.6,Normal,141.9,85.5,99.5,286.72,False
+PAT-00939,Rita Ferreira Jesus,131716400,26,F,2700,29.4,Cardiovascular,138.0,88.2,101.1,5242.56,False
+PAT-00940,José Costa Sousa,393223537,50,M,1500,22.8,Cardiovascular,146.8,95.1,82.9,3908.14,False
+PAT-00941,Luís Rodrigues Sousa,186193484,73,M,1200,22.0,Hypertension,144.7,89.5,74.8,911.81,False
+PAT-00942,Helena Oliveira Oliveira,278277210,31,F,1000,32.6,Type 2 diabetes,143.4,84.0,147.7,3147.03,False
+PAT-00943,Manuel Costa Sousa,157052481,44,M,1050,28.0,Oncology,141.3,87.9,93.0,6278.61,True
+PAT-00944,Francisco Pereira Santos,371047358,46,M,1500,25.2,Cardiovascular,165.0,100.1,83.7,3473.87,False
+PAT-00945,José Ferreira Sousa,221536377,50,M,1300,29.5,Hypertension,156.7,91.2,89.2,368.08,False
+PAT-00946,Luís Santos Silva,360182035,28,M,2700,26.4,Normal,134.4,83.4,100.2,362.32,False
+PAT-00947,Teresa Sousa Martins,292906998,64,F,2600,28.2,Normal,135.8,87.3,78.4,429.72,False
+PAT-00948,Ana Silva Santos,235677897,65,F,1050,22.7,Hypertension,178.3,114.7,91.7,408.39,False
+PAT-00949,Rita Martins Jesus,130550087,62,F,1700,38.2,Hypertension,154.0,102.5,77.0,442.96,False
+PAT-00950,João Santos Sousa,240723843,40,M,1300,23.7,Normal,113.8,75.9,94.6,112.28,False
+PAT-00951,Helena Martins Santos,265479373,55,F,1050,34.8,Normal,145.7,89.3,102.0,288.97,False
+PAT-00952,João Silva Rodrigues,123814200,40,M,1900,25.4,Normal,113.2,70.5,95.1,397.25,False
+PAT-00953,Tiago Rodrigues Ferreira,218420951,49,M,1500,30.4,Cardiovascular,165.3,101.8,91.5,1768.16,False
+PAT-00954,Miguel Silva Jesus,122299623,88,M,1000,30.0,Cardiovascular,165.9,101.8,92.0,2856.41,False
+PAT-00955,Teresa Martins Jesus,117774194,56,F,1500,32.3,Hypertension,163.8,99.3,85.8,1164.34,False
+PAT-00956,Mariana Oliveira Pereira,114046764,35,F,2600,22.6,Normal,96.0,61.8,77.4,178.04,False
+PAT-00957,Helena Rodrigues Santos,251334788,57,F,1200,31.9,Normal,130.5,81.0,95.8,272.46,False
+PAT-00958,Helena Silva Costa,179534610,32,F,1200,36.7,Normal,125.7,81.6,92.1,405.79,False
+PAT-00959,Ana Rodrigues Oliveira,188962867,35,F,1050,25.1,Hypertension,160.2,98.0,80.1,1034.3,False
+PAT-00960,Beatriz Rodrigues Martins,270616109,37,F,1100,26.5,Normal,127.4,83.6,74.7,113.61,False
+PAT-00961,Inês Sousa Oliveira,177110744,47,F,2800,23.9,Normal,135.9,91.6,98.1,153.51,False
+PAT-00962,Manuel Silva Ferreira,195377588,69,M,1700,24.7,Type 2 diabetes,156.0,96.3,134.5,2297.12,False
+PAT-00963,Pedro Costa Pereira,217235190,63,M,1050,35.8,Hypertension,178.7,119.1,84.8,552.02,False
+PAT-00964,Francisco Jesus Costa,175748280,62,M,1500,22.0,Cardiovascular,149.1,100.1,75.3,2735.93,False
+PAT-00965,Maria Silva Oliveira,350757999,36,F,1100,22.2,Oncology,153.4,97.9,99.7,4790.2,True
+PAT-00966,Beatriz Jesus Costa,288033722,45,F,1300,35.2,Normal,137.0,79.8,85.7,105.58,False
+PAT-00967,Rita Costa Pereira,322169861,58,F,1050,29.4,Normal,112.4,72.3,90.5,281.6,False
+PAT-00968,Pedro Rodrigues Martins,359392330,44,M,1700,38.5,Type 2 diabetes,128.4,77.6,128.1,2925.5,False
+PAT-00969,Ana Rodrigues Ferreira,340068266,50,F,1700,24.3,Hypertension,150.8,88.1,94.9,1073.83,False
+PAT-00970,Miguel Martins Rodrigues,273862492,61,M,1700,26.9,Hypertension,162.8,99.2,70.0,825.95,False
+PAT-00971,Rui Costa Silva,221147084,48,M,1300,23.4,Type 2 diabetes,117.0,76.7,137.4,3166.54,False
+PAT-00972,Pedro Martins Santos,354805081,58,M,1200,27.0,Hypertension,168.0,107.1,110.7,664.28,False
+PAT-00973,Manuel Ferreira Jesus,188736035,79,M,1100,19.1,Normal,139.6,79.9,87.9,414.47,False
+PAT-00974,Mariana Sousa Jesus,312893425,51,F,1100,29.8,Hypertension,167.8,101.8,99.5,993.85,False
+PAT-00975,Luís Rodrigues Pereira,127773232,73,M,1300,27.9,Normal,148.7,93.1,106.8,354.55,False
+PAT-00976,Maria Pereira Costa,155285778,63,F,1300,26.0,Oncology,126.7,70.3,105.6,12635.35,True
+PAT-00977,Manuel Ferreira Silva,192122032,31,M,1900,24.5,Oncology,140.8,86.1,86.2,8907.09,True
+PAT-00978,Miguel Jesus Jesus,194145800,36,M,1000,22.4,Normal,138.6,96.7,104.5,306.24,False
+PAT-00979,Inês Costa Sousa,189854096,41,F,1200,30.0,Oncology,150.1,93.3,90.4,5876.33,True
+PAT-00980,Luís Ferreira Pereira,391055125,40,M,2700,21.3,Normal,116.3,75.1,77.4,346.23,False
+PAT-00981,Rita Oliveira Jesus,132826002,53,F,2800,28.9,Oncology,145.5,99.2,72.7,11912.37,True
+PAT-00982,Teresa Silva Martins,317603280,64,F,2800,38.2,Type 2 diabetes,124.3,74.4,144.8,1859.53,False
+PAT-00983,Inês Costa Ferreira,238875223,74,F,1200,34.4,Cardiovascular,162.7,100.3,86.2,3916.67,False
+PAT-00984,José Pereira Silva,374060287,59,M,1050,20.1,Normal,141.3,93.7,111.6,391.38,False
+PAT-00985,Miguel Santos Pereira,274185121,47,M,1100,23.9,Normal,103.5,62.7,100.4,382.12,False
+PAT-00986,Ana Santos Pereira,112413172,21,F,1050,28.4,Cardiovascular,137.7,82.2,108.6,5021.24,False
+PAT-00987,Rui Sousa Pereira,166067756,55,M,2800,26.0,Type 2 diabetes,136.5,83.9,152.0,1599.94,False
+PAT-00988,Luís Sousa Ferreira,276672958,54,M,2700,20.5,Normal,128.1,69.8,70.8,371.73,False
+PAT-00989,Rui Santos Ferreira,338317068,57,M,2600,28.2,Oncology,163.8,93.1,77.9,8854.44,True
+PAT-00990,Inês Silva Jesus,180448116,88,F,2600,26.3,Normal,158.1,100.0,104.5,245.86,False
+PAT-00991,Teresa Pereira Jesus,239196471,74,F,1200,37.1,Type 2 diabetes,136.8,87.7,143.9,2513.17,False
+PAT-00992,Rita Jesus Jesus,338344471,67,F,1500,25.1,Type 2 diabetes,119.6,82.2,149.8,1429.88,False
+PAT-00993,Mariana Santos Sousa,310449452,39,F,2700,32.5,Type 2 diabetes,114.2,69.9,168.4,2332.17,False
+PAT-00994,Pedro Sousa Sousa,262989210,46,M,2600,20.9,Normal,129.8,79.0,92.5,127.71,False
+PAT-00995,Ana Oliveira Santos,158335889,52,F,1500,21.9,Normal,130.2,85.5,97.7,400.13,False
+PAT-00996,João Sousa Sousa,137800228,42,M,2700,30.0,Hypertension,150.4,97.4,92.9,558.02,False
+PAT-00997,Helena Jesus Rodrigues,238462456,62,F,1200,32.0,Normal,154.3,92.1,111.6,273.45,False
+PAT-00998,Luís Sousa Costa,261733481,60,M,1300,22.1,Type 2 diabetes,137.9,91.4,141.2,1302.13,False
+PAT-00999,Catarina Ferreira Martins,172348824,37,F,2700,26.4,Normal,108.1,68.4,102.1,337.24,False
+PAT-01000,Tiago Rodrigues Oliveira,136957997,73,M,1300,20.5,Hypertension,159.6,92.4,89.5,738.31,False

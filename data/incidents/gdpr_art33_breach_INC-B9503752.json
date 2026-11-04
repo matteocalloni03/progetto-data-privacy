@@ -1,0 +1,37 @@
+{
+  "regulatory_framework": "GDPR (Regulation (EU) 2016/679)",
+  "article": "Article 33 - Notification of a personal data breach to the supervisory authority",
+  "supervisory_authority": "Comissão Nacional de Proteção de Dados (CNPD - Portugal)",
+  "notification_metadata": {
+    "incident_id": "INC-B9503752",
+    "timestamp_utc": "2026-10-29T13:15:10.626064+00:00",
+    "deadline_72h_utc": "2026-11-01T13:15:10.626064+00:00",
+    "status": "DRAFT_DPA_NOTIFICATION"
+  },
+  "data_controller_information": {
+    "organization": "Healthcare Data Management & Research Platform",
+    "role": "Data Controller / Privacy Officer",
+    "dpo_contact": "dpo@hospital-research.pt"
+  },
+  "nature_of_the_breach": {
+    "breach_type": "Attempted reconstruction attack / policy violation: Differential Privacy Reconstruction Attack",
+    "special_category_health_data_involved": true,
+    "gdpr_article_involved": "Article 9 (Processing of special categories of personal data)",
+    "data_categories": [
+      "Quasi-Identifiers (Age, Gender, Postal Area, BMI)",
+      "Sensitive Health Attributes (Diagnoses, Blood Pressure, Glucose)"
+    ],
+    "approximate_number_of_data_subjects": 1000
+  },
+  "risk_and_consequences": {
+    "severity_assessment": "High risk to rights and freedoms of natural persons",
+    "likely_consequences": "Attempted singling-out or inference mitigated by automated gateway revocation."
+  },
+  "corrective_and_remedial_measures": {
+    "applied_measures": [
+      "Immediate token revocation and query endpoint isolation",
+      "Privacy Gateway rules updated to block suspicious pattern",
+      "Audit log hash-chain verification executed"
+    ]
+  }
+}

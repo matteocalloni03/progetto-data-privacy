@@ -1,0 +1,32 @@
+{
+  "regulatory_framework": "NIS2 Directive (EU) 2022/2555",
+  "article": "Article 23(4)(a) - Early Warning",
+  "competent_authority": "National Cybersecurity Centre (CNCS - Portugal)",
+  "report_metadata": {
+    "incident_id": "INC-B5A8222C",
+    "timestamp_utc": "2026-10-29T11:54:43.610885+00:00",
+    "deadline_submission_utc": "2026-10-30T11:54:43.610885+00:00",
+    "status": "DRAFT_EARLY_WARNING"
+  },
+  "incident_classification": {
+    "title": "Differential Privacy Reconstruction Attack",
+    "severity_level": "CRITICAL",
+    "sector": "High Criticality - Healthcare / Health Data Platform (Annex I)",
+    "affected_assets": "Health Privacy Gateway (User Researcher Matteo (Cardio & Oncology Lab))",
+    "suspected_malicious_intent": true,
+    "cross_border_impact_potential": false
+  },
+  "initial_assessment": {
+    "technical_summary": "Rule 4 Abuse Alert: Automated reconstruction attempt detected (repeated identical target queries within tight time window).",
+    "mitigations_immediate": [
+      "Revocation of offending user/token",
+      "Suspension of query interface for affected session",
+      "Hash-chain cryptographic log state preserved for forensics"
+    ]
+  },
+  "reporting_timeline": {
+    "step_1_early_warning_due": "2026-10-30T11:54:43.610885+00:00",
+    "step_2_incident_notification_due": "2026-11-01T11:54:43.610885+00:00",
+    "step_3_final_report_due": "2026-11-28T11:54:43.610885+00:00"
+  }
+}

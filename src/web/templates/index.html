@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Data Privacy Gateway — GDPR & NIS2 Compliance</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    :root {
+      --primary-color: #0f4c81;
+      --secondary-color: #1e3a8a;
+      --accent-color: #0284c7;
+      --bg-light: #f8fafc;
+      --card-border: #e2e8f0;
+    }
+    body {
+      background-color: var(--bg-light);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: #1e293b;
+    }
+    .navbar-brand {
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+    .badge-gdpr { background-color: #059669; color: white; font-weight: 600; }
+    .badge-nis2 { background-color: #7c3aed; color: white; font-weight: 600; }
+    .card {
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+      margin-bottom: 24px;
+    }
+    .nav-tabs .nav-link {
+      font-weight: 600;
+      color: #64748b;
+      border: none;
+      padding: 12px 20px;
+    }
+    .nav-tabs .nav-link.active {
+      color: var(--primary-color);
+      border-bottom: 3px solid var(--accent-color);
+      background: transparent;
+    }
+    .hash-text {
+      font-family: monospace;
+      font-size: 0.82rem;
+      color: #475569;
+    }
+    .metric-card {
+      background: white;
+      border-radius: 10px;
+      padding: 16px;
+      border-left: 4px solid var(--accent-color);
+    }
+    .metric-title { font-size: 0.85rem; text-transform: uppercase; color: #64748b; font-weight: 600; }
+    .metric-value { font-size: 1.6rem; font-weight: 700; color: #0f172a; }
+  </style>
+</head>
+<body>
+
+  <!-- Top Navigation & Institutional Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <i class="bi bi-shield-check text-info fs-3"></i>
+        <span>Health Data Privacy Gateway</span>
+      </a>
+      <div class="d-flex align-items-center gap-2">
+        <span class="badge badge-gdpr px-2 py-1"><i class="bi bi-lock"></i> GDPR Art. 9 & 33</span>
+        <span class="badge badge-nis2 px-2 py-1"><i class="bi bi-shield-shaded"></i> NIS2 Art. 21 & 23</span>
+        <span class="text-light small ms-2 border-start ps-3 d-none d-md-inline">
+          ISCTE-IUL | Prof. Valderi Leithardt
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Container -->
+  <div class="container-fluid px-4 py-4">
+
+    <!-- Active Persona Bar -->
+    <div class="card p-3 mb-4 bg-white">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h5 class="mb-1 text-primary fw-bold">
+            <i class="bi bi-person-badge"></i> System Actor & Authorization Context
+          </h5>
+          <p class="text-muted small mb-0">
+            Select an actor to simulate the access rights and operational boundaries modeled in Figure 5.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="input-group">
+            <span class="input-group-text bg-light"><i class="bi bi-key-fill text-warning"></i></span>
+            <select id="personaSelect" class="form-select fw-semibold" onchange="onPersonaChange()">
+              <option value="researcher-token-oncology-lab">Researcher: Matteo Calloni (Cardio/Oncology Lab)</option>
+              <option value="admin-token-secret-iscte-2026">Admin: Dr. Leithardt (Privacy Officer)</option>
+              <option value="worker-token-hospital-lisbon">Healthcare Worker: Manuel Mulloni (Data Ingest)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <ul class="nav nav-tabs mb-4" id="mainTabs" role="tablist">
+      <li class="nav-item">
+        <button class="nav-link active" id="researcher-tab" data-bs-toggle="tab" data-bs-target="#researcher-pane">
+          <i class="bi bi-graph-up-arrow"></i> Scientific Access (Researcher)
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" id="admin-tab" data-bs-toggle="tab" data-bs-target="#admin-pane">
+          <i class="bi bi-shield-lock"></i> Governance & NIS2 Compliance (Admin)
+        </button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" id="benchmarks-tab" data-bs-toggle="tab" data-bs-target="#benchmarks-pane">
+          <i class="bi bi-file-earmark-bar-graph"></i> Experimental Benchmarks & Figures
+        </button>
+      </li>
+    </ul>
+
+    <!-- Tab Content -->
+    <div class="tab-content" id="mainTabsContent">
+
+      <!-- PANE 1: RESEARCHER ACCESS -->
+      <div class="tab-pane fade show active" id="researcher-pane">
+        <div class="row">
+          
+          <!-- Privacy Budget & Status Widget -->
+          <div class="col-md-4">
+            <div class="card p-3">
+              <h6 class="fw-bold text-secondary mb-3"><i class="bi bi-speedometer2"></i> DP Privacy Budget (ε)</h6>
+              <div class="metric-card mb-3">
+                <div class="metric-title">Remaining Budget (ε)</div>
+                <div class="metric-value text-primary" id="budgetRemaining">--</div>
+                <div class="progress mt-2" style="height: 6px;">
+                  <div class="progress-bar bg-success" id="budgetBar" style="width: 100%"></div>
+                </div>
+              </div>
+              <div class="small text-muted">
+                <div><strong>Allocated:</strong> <span id="budgetAllocated">--</span></div>
+                <div><strong>Spent (Sequential Comp.):</strong> <span id="budgetSpent">--</span></div>
+                <div><strong>Queries Executed:</strong> <span id="budgetQueries">--</span></div>
+              </div>
+            </div>
+
+            <!-- Download Anonymized Dataset -->
+            <div class="card p-3">
+              <h6 class="fw-bold text-secondary mb-2"><i class="bi bi-cloud-arrow-down"></i> Approved k-Anonymized Microdata</h6>
+              <p class="small text-muted">
+                Download validated GDPR-compliant datasets with HMAC-pseudonymized direct IDs and generalized quasi-identifiers.
+              </p>
+              <div class="mb-3">
+                <label class="form-label small fw-semibold">Available Datasets</label>
+                <select id="datasetList" class="form-select form-select-sm">
+                  <option value="">Loading datasets...</option>
+                </select>
+              </div>
+              <button class="btn btn-outline-primary btn-sm w-100" onclick="downloadDataset()">
+                <i class="bi bi-filetype-csv"></i> Download Dataset CSV
+              </button>
+            </div>
+
+            <!-- Security Attack Simulation -->
+            <div class="card p-3 border-danger">
+              <h6 class="fw-bold text-danger mb-2"><i class="bi bi-exclamation-octagon"></i> Security Rules Simulation</h6>
+              <p class="small text-muted">
+                Simulate an automated reconstruction attack (Rule 4) to verify gateway detection, instant token revocation, and NIS2 Art. 23 incident drafting.
+              </p>
+              <button class="btn btn-outline-danger btn-sm w-100" onclick="simulateReconstructionAttack()">
+                <i class="bi bi-lightning-charge"></i> Trigger Reconstruction Abuse
+              </button>
+            </div>
+          </div>
+
+          <!-- DP Query Execution Console -->
+          <div class="col-md-8">
+            <div class="card p-4">
+              <h5 class="fw-bold text-primary mb-3">
+                <i class="bi bi-terminal"></i> Differentially Private Query Interface
+              </h5>
+              <div class="row g-3 mb-3">
+                <div class="col-md-4">
+                  <label class="form-label small fw-semibold">Query Type</label>
+                  <select id="queryType" class="form-select">
+                    <option value="mean">Bounded Mean (Systolic BP)</option>
+                    <option value="count">Count Patients</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label class="form-label small fw-semibold">Target Cohort</label>
+                  <select id="queryCohort" class="form-select">
+                    <option value="">All Patients (N=1000)</option>
+                    <option value="oncology">Oncology Sub-Cohort (N=64)</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label class="form-label small fw-semibold">Epsilon (ε) per Query</label>
+                  <input type="number" id="queryEpsilon" class="form-control" value="0.5" step="0.1" min="0.05" max="5.0">
+                </div>
+              </div>
+
+              <button class="btn btn-primary fw-semibold px-4" onclick="executeDPQuery()">
+                <i class="bi bi-play-circle"></i> Execute Query through Privacy Gateway
+              </button>
+
+              <hr class="my-4">
+
+              <!-- Query Result Display -->
+              <div id="queryResultBox" class="p-3 bg-light rounded border d-none">
+                <h6 class="fw-bold text-dark mb-3"><i class="bi bi-clipboard-data"></i> Gateway Response & Privacy Guarantees</h6>
+                <div class="row text-center mb-3">
+                  <div class="col-md-4">
+                    <div class="metric-title">Noisy Output (M(D))</div>
+                    <div class="fs-3 fw-bold text-success" id="resNoisy">--</div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="metric-title">True Baseline Value</div>
+                    <div class="fs-3 fw-bold text-muted" id="resTrue">--</div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="metric-title">Laplace Scale (b = Δf/ε)</div>
+                    <div class="fs-3 fw-bold text-info" id="resScale">--</div>
+                  </div>
+                </div>
+                <div class="small text-muted border-top pt-2">
+                  <span><strong>Theoretical MAE:</strong> <span id="resMAE">--</span></span> |
+                  <span><strong>Theoretical MSE (2b²):</strong> <span id="resMSE">--</span></span> |
+                  <span><strong>Budget Consumed:</strong> <span id="resSpent">--</span></span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANE 2: ADMIN & GOVERNANCE -->
+      <div class="tab-pane fade" id="admin-pane">
+        <div class="row">
+
+          <!-- k-Anonymity Approval & Configuration -->
+          <div class="col-md-5">
+            <div class="card p-4">
+              <h5 class="fw-bold text-primary mb-3"><i class="bi bi-sliders"></i> Dataset Anonymization & Approval</h5>
+              <div class="mb-3">
+                <label class="form-label small fw-semibold">Anonymity Threshold (k)</label>
+                <input type="number" id="kanonK" class="form-control" value="5" min="2" max="50">
+                <div class="form-text">Guarantees |EC| >= k across Age, Gender, Postal Area, BMI.</div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-semibold">Dataset Identifier / Name</label>
+                <input type="text" id="kanonName" class="form-control" value="health_research_export">
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-semibold">GDPR Research Justification</label>
+                <textarea id="kanonJust" class="form-control" rows="2">Scientific cardiovascular and metabolic cohort study.</textarea>
+              </div>
+              <button class="btn btn-success fw-semibold w-100" onclick="approveKanonDataset()">
+                <i class="bi bi-check-circle"></i> Apply Mondrian & Approve GDPR Dataset
+              </button>
+            </div>
+
+            <!-- Hash Chain Integrity Verifier -->
+            <div class="card p-4">
+              <h5 class="fw-bold text-secondary mb-3"><i class="bi bi-fingerprint"></i> NIS2 Art. 21(2)(h) Hash Chain Audit</h5>
+              <p class="small text-muted">
+                Mathematically verify that no audit log entry has been altered, deleted, or backdated.
+              </p>
+              <button class="btn btn-outline-dark fw-semibold w-100 mb-3" onclick="verifyAuditChain()">
+                <i class="bi bi-shield-check"></i> Run SHA-256 Hash Chain Integrity Verification
+              </button>
+              <div id="verifyResult" class="small p-2 rounded d-none"></div>
+            </div>
+          </div>
+
+          <!-- Audit Log Trail & Incidents -->
+          <div class="col-md-7">
+            <div class="card p-4">
+              <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="fw-bold text-dark mb-0"><i class="bi bi-journal-text"></i> Tamper-Evident Audit Trail</h5>
+                <button class="btn btn-sm btn-light border" onclick="loadAuditLogs()"><i class="bi bi-arrow-clockwise"></i> Refresh</button>
+              </div>
+              <div class="table-responsive" style="max-height: 380px;">
+                <table class="table table-sm table-hover align-middle">
+                  <thead class="table-light small">
+                    <tr>
+                      <th>Idx</th>
+                      <th>Time (UTC)</th>
+                      <th>Action</th>
+                      <th>Status</th>
+                      <th>SHA-256 Hash</th>
+                    </tr>
+                  </thead>
+                  <tbody id="auditTableBody" class="small">
+                    <tr><td colspan="5" class="text-center text-muted">Loading audit records...</td></tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- NIS2 / GDPR Incident Dossiers -->
+            <div class="card p-4">
+              <h5 class="fw-bold text-danger mb-3"><i class="bi bi-bell"></i> Regulatory Incident Reports (NIS2 & GDPR)</h5>
+              <div id="incidentsList" class="small">
+                <div class="text-muted">No active incidents recorded.</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANE 3: EXPERIMENTAL BENCHMARKS -->
+      <div class="tab-pane fade" id="benchmarks-pane">
+        <div class="card p-4 mb-4">
+          <div class="d-flex justify-content-between align-items-center mb-3">
+            <h5 class="fw-bold text-primary mb-0"><i class="bi bi-bar-chart-line"></i> Replicated Study Figures & Validation</h5>
+            <button class="btn btn-sm btn-primary" onclick="triggerBenchmarkRun()">
+              <i class="bi bi-arrow-repeat"></i> Rerun All Benchmarks
+            </button>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-12">
+              <div class="card p-3 text-center">
+                <h6 class="fw-bold text-secondary">Figure 2: DP Mean Error (a) and k-Anonymity Trade-off (b)</h6>
+                <img src="/static/figures/figure_2_combined.png" class="img-fluid rounded border my-2" onerror="this.src=''" alt="Figure 2">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 text-center">
+                <h6 class="fw-bold text-secondary">Figure 3: Range-Count Query Sequence Error</h6>
+                <img src="/static/figures/figure_3_range_queries.png" class="img-fluid rounded border my-2" onerror="this.src=''" alt="Figure 3">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 text-center">
+                <h6 class="fw-bold text-secondary">Figure 4: NIS2 Art. 23 & GDPR Art. 33 Reporting Steps</h6>
+                <img src="/static/figures/figure_4_nis2_timeline.png" class="img-fluid rounded border my-2" onerror="this.src=''" alt="Figure 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function getActiveToken() {
+      return document.getElementById("personaSelect").value;
+    }
+
+    function onPersonaChange() {
+      updateBudgetDisplay();
+      loadDatasets();
+    }
+
+    async function updateBudgetDisplay() {
+      const token = getActiveToken();
+      try {
+        const res = await fetch(`/api/budget?token=${token}`);
+        if (res.ok) {
+          const data = await res.json();
+          document.getElementById("budgetRemaining").innerText = data.remaining.toFixed(2);
+          document.getElementById("budgetAllocated").innerText = data.allocated.toFixed(2);
+          document.getElementById("budgetSpent").innerText = data.used.toFixed(2);
+          document.getElementById("budgetQueries").innerText = data.query_count;
+          const pct = Math.max(0, Math.min(100, (data.remaining / data.allocated) * 100));
+          const bar = document.getElementById("budgetBar");
+          bar.style.width = pct + "%";
+          bar.className = pct < 20 ? "progress-bar bg-danger" : pct < 50 ? "progress-bar bg-warning" : "progress-bar bg-success";
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function executeDPQuery() {
+      const token = getActiveToken();
+      const qType = document.getElementById("queryType").value;
+      const cohort = document.getElementById("queryCohort").value || null;
+      const eps = parseFloat(document.getElementById("queryEpsilon").value);
+
+      try {
+        const res = await fetch("/api/dp/query", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({
+            token: token,
+            query_type: qType,
+            filter_cohort: cohort,
+            epsilon: eps
+          })
+        });
+
+        const data = await res.json();
+        const box = document.getElementById("queryResultBox");
+        box.classList.remove("d-none");
+
+        if (res.ok) {
+          document.getElementById("resNoisy").innerText = data.noisy_result;
+          document.getElementById("resTrue").innerText = data.true_result !== null ? data.true_result : "--";
+          document.getElementById("resScale").innerText = data.noise_scale;
+          document.getElementById("resMAE").innerText = data.theoretical_mae;
+          document.getElementById("resMSE").innerText = data.theoretical_mse;
+          document.getElementById("resSpent").innerText = data.epsilon_spent;
+          updateBudgetDisplay();
+          loadAuditLogs();
+        } else {
+          alert("Gateway Rule Alert: " + (data.detail || data.error));
+          updateBudgetDisplay();
+          loadAuditLogs();
+        }
+      } catch (e) {
+        alert("Execution Error: " + e.message);
+      }
+    }
+
+    async function simulateReconstructionAttack() {
+      const token = getActiveToken();
+      alert("Simulating 4 rapid identical range queries to test Rule 4 abuse detection...");
+      for (let i = 0; i < 4; i++) {
+        await fetch("/api/dp/query", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({
+            token: token,
+            query_type: "mean",
+            target_column: "blood_pressure_systolic",
+            range_condition: {"column": "age", "min": 50, "max": 51},
+            epsilon: 0.1
+          })
+        });
+      }
+      updateBudgetDisplay();
+      loadAuditLogs();
+      loadIncidents();
+    }
+
+    async function approveKanonDataset() {
+      const token = getActiveToken();
+      const k = parseInt(document.getElementById("kanonK").value);
+      const name = document.getElementById("kanonName").value;
+      const just = document.getElementById("kanonJust").value;
+
+      try {
+        const res = await fetch("/api/kanon/approve", {
+          method: "POST",
+          headers: {"Content-Type": "application/json"},
+          body: JSON.stringify({
+            token: token,
+            k: k,
+            dataset_name: name,
+            justification: just
+          })
+        });
+        const data = await res.json();
+        if (res.ok) {
+          alert("Dataset approved and published! Dataset ID: " + data.dataset_id + " (Information Loss NCP: " + data.metrics.information_loss_ncp + ")");
+          loadDatasets();
+          loadAuditLogs();
+        } else {
+          alert("Approval failed: " + (data.detail || data.error));
+        }
+      } catch (e) {
+        alert("Error: " + e.message);
+      }
+    }
+
+    async function loadDatasets() {
+      try {
+        const res = await fetch("/api/kanon/datasets");
+        const list = document.getElementById("datasetList");
+        list.innerHTML = "";
+        if (res.ok) {
+          const datasets = await res.json();
+          if (datasets.length === 0) {
+            list.innerHTML = "<option value=''>No datasets approved yet</option>";
+          } else {
+            datasets.forEach(ds => {
+              list.innerHTML += `<option value="${ds.dataset_id}">${ds.filename} (k=${ds.k}, NCP=${ds.metrics.information_loss_ncp})</option>`;
+            });
+          }
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    function downloadDataset() {
+      const token = getActiveToken();
+      const dsId = document.getElementById("datasetList").value;
+      if (!dsId) {
+        alert("Please select an approved dataset first.");
+        return;
+      }
+      window.location.href = `/api/kanon/download?token=${token}&dataset_id=${dsId}`;
+    }
+
+    async function verifyAuditChain() {
+      const box = document.getElementById("verifyResult");
+      box.className = "small p-2 rounded bg-light";
+      box.innerHTML = "Verifying cryptographic chain...";
+      box.classList.remove("d-none");
+
+      try {
+        const res = await fetch("/api/audit/verify");
+        const data = await res.json();
+        if (data.is_valid) {
+          box.className = "small p-2 rounded bg-success text-white fw-bold";
+          box.innerHTML = `<i class="bi bi-shield-check"></i> Hash chain verified! ${data.records_checked} blocks validated with zero tampering.`;
+        } else {
+          box.className = "small p-2 rounded bg-danger text-white fw-bold";
+          box.innerHTML = `<i class="bi bi-exclamation-triangle"></i> TAMPER DETECTED: ${data.errors.join("; ")}`;
+        }
+      } catch (e) {
+        box.innerHTML = "Verification error: " + e.message;
+      }
+    }
+
+    async function loadAuditLogs() {
+      try {
+        const res = await fetch("/api/audit/logs");
+        const tbody = document.getElementById("auditTableBody");
+        tbody.innerHTML = "";
+        if (res.ok) {
+          const logs = await res.json();
+          logs.forEach(l => {
+            const statusClass = l.status === "ALERT" ? "badge bg-danger" : l.status === "REJECTED" ? "badge bg-warning text-dark" : "badge bg-success";
+            tbody.innerHTML += `
+              <tr>
+                <td><strong>#${l.index}</strong></td>
+                <td>${l.timestamp.substring(11, 19)}</td>
+                <td><span class="badge bg-secondary">${l.action}</span></td>
+                <td><span class="${statusClass}">${l.status}</span></td>
+                <td class="hash-text" title="${l.current_hash}">${l.current_hash.substring(0, 16)}...</td>
+              </tr>
+            `;
+          });
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function loadIncidents() {
+      try {
+        const res = await fetch("/api/incidents");
+        const div = document.getElementById("incidentsList");
+        if (res.ok) {
+          const incidents = await res.json();
+          if (incidents.length === 0) {
+            div.innerHTML = "<div class='text-muted'>No active incidents recorded.</div>";
+          } else {
+            div.innerHTML = "";
+            incidents.forEach(inc => {
+              div.innerHTML += `
+                <div class="border rounded p-2 mb-2 bg-light">
+                  <div class="d-flex justify-content-between">
+                    <strong class="text-danger">${inc.title || "Incident Report"}</strong>
+                    <span class="badge bg-danger">${inc.severity}</span>
+                  </div>
+                  <div class="text-muted small">${inc.article || "NIS2 Art. 23 / GDPR Art. 33"}</div>
+                  <a href="/api/incidents/${inc.file}" class="btn btn-sm btn-outline-danger mt-1 py-0" download>
+                    <i class="bi bi-download"></i> Download JSON Dossier
+                  </a>
+                </div>
+              `;
+            });
+          }
+        }
+      } catch (e) {
+        console.error(e);
+      }
+    }
+
+    async function triggerBenchmarkRun() {
+      alert("Triggering benchmark recalculation. This may take a few seconds...");
+      const res = await fetch("/api/benchmarks/run", { method: "POST" });
+      if (res.ok) {
+        alert("Benchmarks updated successfully!");
+        location.reload();
+      }
+    }
+
+    // Init on load
+    window.onload = function() {
+      updateBudgetDisplay();
+      loadDatasets();
+      loadAuditLogs();
+      loadIncidents();
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+k,num_records,num_classes,min_class_size,avg_class_size,info_loss_ncp,max_linkage_risk,avg_linkage_risk,homogeneous_classes,min_l_diversity
+3,1000,260,3,3.85,0.072,0.3333,0.26,11,1
+5,1000,145,5,6.9,0.1138,0.2,0.145,0,2
+10,1000,68,10,14.71,0.1798,0.1,0.068,0,3
+20,1000,33,20,30.3,0.2533,0.05,0.033,0,4
+50,1000,16,52,62.5,0.3381,0.0192,0.016,0,5
