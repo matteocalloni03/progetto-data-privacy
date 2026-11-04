@@ -1,7 +1,7 @@
 # Protecting Health Data: k-Anonymity vs Differential Privacy under GDPR and NIS2
 
 A Master's Level Software Architecture and Empirical Evaluation Prototype
-Course: Data Privacy (Privacidade de Dados) – Academic Year 2025/2026
+Course: Data Privacy (Privacidade de Dados) – Academic Year 2026/2027
 Institution: ISCTE – Instituto Universitário de Lisboa | School of Technology and Architecture (ISTA)
 Professor: Valderi Leithardt
 
