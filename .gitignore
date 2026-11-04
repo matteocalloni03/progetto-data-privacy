@@ -30,9 +30,6 @@ env/
 ENV/
 .venv/
 
-# Environment and sensitive secrets
-.env
-
 # Pytest / Coverage / Caches
 .pytest_cache/
 .coverage
